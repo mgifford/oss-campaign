@@ -25,21 +25,19 @@ nl:
     Handel als een burger die een brief schrijft met de volgende persoonlijke gegevens:
     - Naam: {name}
     - Land: {country}
-    {city_line}
-    {postal_line}
-    {company_line}
-    {project_line}
-    {affiliation_line}
-
+      {city_line}{postal_line}{company_line}{project_line}{affiliation_line}
     - Schrijf een professionele e-mail. Deze moet beleefd, beknopt en niet langer dan vier alinea's zijn.
-    - Benadruk je persoonlijke band met open source.
-    - Het hoofdthema is digitale soevereiniteit. Het primaire doel is om een relevante Europarlementariër te vragen het EU Sovereign Tech Fund te steunen. Het secundaire doel is om proactiever beleid voor open source-inkoop te bevorderen.
-    - Verwijs naar een van de volgende gidsen: https://www.linuxfoundation.org/hubfs/Research%20Reports/WorldofOS_EUSpotlight_2025_081525.pdf of https://eu-stf.openforumeurope.org/wp-content/uploads/2025/08/EU-STF-Feasibility-Study_final.pdf
+    - Waar mogelijk, benadruk je persoonlijke band met open source.
+    - Het hoofdthema is digitale soevereiniteit. Het primaire doel is om een relevante Europarlementariër te vragen het EU Sovereign Tech Fund te steunen. Het secundaire doel is om actiever beleid voor open source-inkoop te bevorderen.
+    - Verwijs naar deze richtlijnen: https://www.linuxfoundation.org/hubfs/Research%20Reports/WorldofOS_EUSpotlight_2025_081525.pdf of https://eu-stf.openforumeurope.org/wp-content/uploads/2025/08/EU-STF-Feasibility-Study_final.pdf
     - Gebruik ten minste één van de gegeven links om een bron te citeren die je argument ondersteunt.
     - Zoek op basis van de verstrekte informatie de meest geschikte Europarlementariër. Idealiter iemand die verbonden is met de stad of het onderwerp, en uit het land van de burger komt.
-    - Onderzoek deze Europarlementariër op Wikipedia, zijn/haar officiële website en biografie. Zoek de officiële rol, commissielidmaatschappen en eventuele publieke uitspraken over technologie, cyberveiligheid of digitale soevereiniteit. Als deze informatie relevant is, noem dan de specifieke commissie bij naam en verwijs naar een relevante eerdere uitspraak of rapport om te laten zien dat je onderzoek hebt gedaan.
-    - Zoek de website en het e-mailadres van de Europarlementariër op basis van het opgegeven adres. Het postadres en e-mailadres moeten duidelijk in de geformatteerde brief staan.
-    - Doe een directe, respectvolle aanvraag om beleid en investeringen zoals open source-inkoop te steunen die digitale soevereiniteit zullen versterken.
+    - Onderzoek deze Europarlementariër op Wikipedia, de officiële website en de officiële lijst van Europarlementariërs (https://www.europarl.europa.eu/meps/en/full-list). Verifieer hun website, e-mail en postadres.
+    - Vind hun officiële rollen, commissielidmaatschappen en eerdere uitspraken over technologie, cyberveiligheid of digitale soevereiniteit. Indien relevant, noem de commissie bij naam en verwijs naar een specifieke uitspraak of rapport.
+    - Plaats het volledige postadres en officiële e-mailadres van de Europarlementariër boven de aanhef in standaard zakelijk formaat.
+    - Doe een directe, respectvolle aanvraag voor steun aan beleid en investeringen zoals open source-inkoop die digitale soevereiniteit zullen versterken.
     - Benadruk dat je hoopt FOSDEM in Brussel begin februari bij te wonen en graag persoonlijk zou willen ontmoeten.
     - Definieer alle afkortingen bij het eerste gebruik. Sluit af met een beleefde groet en een uitnodiging voor verdere discussie of antwoord.
     - Houd de toon respectvol, beknopt en persoonlijk.
+
+  dialog_message: "<p>Je prompt is naar je browser gekopieerd. Kopieer het nu naar het LLM van je keuze en bekijk de resultaten.</p><p><strong>Onthoud dat je verantwoordelijk bent voor de inhoud die je genereert. Experimenteer met de prompt en controleer of het resultaat aan je wensen voldoet.</strong></p>"

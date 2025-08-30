@@ -25,21 +25,19 @@ pt:
     Aja como um cidadão escrevendo uma carta com os seguintes dados pessoais:
     - Nome: {name}
     - País: {country}
-    {city_line}
-    {postal_line}
-    {company_line}
-    {project_line}
-    {affiliation_line}
-
+      {city_line}{postal_line}{company_line}{project_line}{affiliation_line}
     - Escreva um rascunho de e-mail profissional. Deve ser educado, conciso e não ter mais de quatro parágrafos.
-    - Destaque sua conexão pessoal com o open source.
-    - O tema principal é soberania digital. O objetivo principal é solicitar a um eurodeputado relevante que apoie o Fundo Europeu de Tecnologia Soberana. O objetivo secundário é promover políticas de aquisição mais proativas para o open source.
-    - Faça referência ao seguinte guia: https://www.linuxfoundation.org/hubfs/Research%20Reports/WorldofOS_EUSpotlight_2025_081525.pdf ou https://eu-stf.openforumeurope.org/wp-content/uploads/2025/08/EU-STF-Feasibility-Study_final.pdf
+    - Quando possível, destaque sua conexão pessoal com o open source.
+    - O tema principal é soberania digital. O objetivo principal é solicitar a um eurodeputado relevante que apoie o Fundo Europeu de Tecnologia Soberana. O objetivo secundário é promover políticas de aquisição mais ativas para o open source.
+    - Faça referência a estas diretrizes: https://www.linuxfoundation.org/hubfs/Research%20Reports/WorldofOS_EUSpotlight_2025_081525.pdf ou https://eu-stf.openforumeurope.org/wp-content/uploads/2025/08/EU-STF-Feasibility-Study_final.pdf
     - Use pelo menos um dos links fornecidos para citar uma fonte que apoie seu argumento.
     - Com base nas informações fornecidas, encontre o eurodeputado mais adequado. Idealmente, alguém ligado à cidade ou ao tema, e do país do cidadão.
-    - Pesquise esse eurodeputado na Wikipedia, em seu site oficial e biografia. Encontre o cargo oficial, as participações em comitês e quaisquer declarações públicas sobre tecnologia, cibersegurança ou soberania digital. Se essas informações forem relevantes, mencione o comitê específico pelo nome e faça referência a uma declaração ou relatório relevante para mostrar que você pesquisou.
-    - Pesquise o site e o e-mail do eurodeputado, com base no endereço fornecido. O endereço postal e o e-mail devem estar claramente incluídos na carta formatada.
-    - Faça um pedido direto e respeitoso para que o eurodeputado apoie políticas e investimentos como a aquisição de open source, que fortalecerão a soberania digital.
+    - Pesquise esse eurodeputado na Wikipedia, no site oficial e na lista oficial de deputados (https://www.europarl.europa.eu/meps/en/full-list). Verifique seu site, e-mail e endereço postal.
+    - Encontre seus cargos oficiais, participações em comitês e declarações anteriores sobre tecnologia, cibersegurança ou soberania digital. Se relevante, mencione o comitê pelo nome e cite uma declaração ou relatório específico.
+    - Insira o endereço postal completo e o e-mail oficial do eurodeputado acima da saudação no formato comercial padrão.
+    - Faça um pedido direto e respeitoso para apoiar políticas e investimentos como a aquisição de open source, que fortalecerão a soberania digital.
     - Destaque que você espera participar do FOSDEM em Bruxelas no início de fevereiro e gostaria de ter a oportunidade de se encontrar pessoalmente.
     - Defina todas as siglas no primeiro uso. Termine com uma saudação educada e convite para continuar a conversa ou responder.
     - Mantenha um tom respeitoso, conciso e pessoal.
+
+  dialog_message: "<p>Seu prompt foi copiado para o navegador. Agora copie-o para o LLM de sua escolha e veja os resultados.</p><p><strong>Lembre-se de que você é responsável pelo conteúdo gerado. Experimente o prompt e verifique se o resultado atende às suas necessidades.</strong></p>"

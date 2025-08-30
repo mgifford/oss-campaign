@@ -25,21 +25,19 @@ cs:
     Jednejte jako občan, který píše dopis s následujícími osobními údaji:
     - Jméno: {name}
     - Země: {country}
-    {city_line}
-    {postal_line}
-    {company_line}
-    {project_line}
-    {affiliation_line}
-
-    - Napište profesionální návrh e-mailu. Měl by být zdvořilý, stručný a neměl by přesáhnout čtyři odstavce.
-    - Zdůrazněte svůj osobní vztah k otevřenému softwaru.
-    - Hlavním tématem je digitální suverenita. Hlavním cílem je požádat relevantního europoslance, aby podpořil Evropský fond pro suverénní technologie. Vedlejším cílem je podpořit progresivnější politiku zadávání veřejných zakázek pro otevřený software.
-    - Odkazujte na následující zdroje: https://www.linuxfoundation.org/hubfs/Research%20Reports/WorldofOS_EUSpotlight_2025_081525.pdf nebo https://eu-stf.openforumeurope.org/wp-content/uploads/2025/08/EU-STF-Feasibility-Study_final.pdf
-    - Použijte alespoň jeden z poskytnutých odkazů jako zdroj pro podporu svého argumentu.
+      {city_line}{postal_line}{company_line}{project_line}{affiliation_line}
+    - Napište profesionální e-mail. Měl by být zdvořilý, stručný a ne delší než čtyři odstavce.
+    - Kde je to možné, zdůrazněte svůj osobní vztah k otevřenému softwaru.
+    - Hlavním tématem je digitální suverenita. Hlavním cílem je požádat relevantního europoslance o podporu Evropského fondu pro suverénní technologie. Vedlejším cílem je podpořit proaktivnější politiku zadávání veřejných zakázek pro otevřený software.
+    - Odkazujte na následující průvodce: https://www.linuxfoundation.org/hubfs/Research%20Reports/WorldofOS_EUSpotlight_2025_081525.pdf nebo https://eu-stf.openforumeurope.org/wp-content/uploads/2025/08/EU-STF-Feasibility-Study_final.pdf
+    - Použijte alespoň jeden z poskytnutých odkazů jako zdroj, který podpoří váš argument.
     - Na základě poskytnutých informací najděte nejvhodnějšího europoslance. Ideálně by měl souviset s městem nebo tématem a pocházet ze země občana.
-    - Prozkoumejte tohoto europoslance na Wikipedii, oficiálních stránkách a v jeho biografii. Najděte jeho oficiální roli, členství ve výborech a veřejná prohlášení o technologiích, kybernetické bezpečnosti nebo digitální suverenitě. Pokud jsou tyto informace relevantní, uveďte konkrétní výbor jménem a odkažte na předchozí prohlášení nebo zprávu, abyste ukázali, že jste provedli výzkum.
-    - Prozkoumejte webové stránky a e-mail europoslance na základě poskytnuté adresy. Poštovní adresa a e-mail by měly být jasně uvedeny v dopise.
-    - Učiňte přímou, zdvořilou žádost, aby europoslanec podpořil politiky a investice, jako je zadávání veřejných zakázek na otevřený software, které posílí digitální suverenitu.
+    - Prozkoumejte tohoto europoslance na Wikipedii, jeho oficiální stránce a oficiálním seznamu europoslanců (https://www.europarl.europa.eu/meps/en/full-list). Ověřte jeho web, e-mail a poštovní adresu.
+    - Identifikujte jeho oficiální role, členství ve výborech a minulé prohlášení o technologiích, kybernetické bezpečnosti nebo digitální suverenitě. Pokud je to relevantní, uveďte výbor jménem a citujte konkrétní prohlášení nebo zprávu.
+    - Uveďte úplnou poštovní adresu a oficiální e-mail europoslance nad pozdravem ve standardním obchodním formátu.
+    - Učiňte přímou, zdvořilou žádost o podporu politik a investic, jako je zadávání veřejných zakázek na otevřený software, které posílí digitální suverenitu.
     - Zdůrazněte, že doufáte, že se zúčastníte FOSDEM v Bruselu začátkem února a rádi byste se osobně setkali.
     - Při prvním použití vysvětlete všechny zkratky. Ukončete zdvořilou frází a pozváním k dalšímu jednání nebo odpovědi.
     - Zachovejte zdvořilý, stručný a osobní tón.
+
+  dialog_message: "<p>Váš prompt byl zkopírován do prohlížeče. Nyní jej zkopírujte do LLM dle vašeho výběru a podívejte se na výsledky.</p><p><strong>Nezapomeňte, že jste odpovědní za obsah, který generujete. Experimentujte s promptem a ověřte, že výsledek odpovídá vašim potřebám.</strong></p>"

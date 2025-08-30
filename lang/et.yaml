@@ -25,21 +25,19 @@ et:
     Tegutsege kui kodanik, kes kirjutab kirja järgmiste isikuandmetega:
     - Nimi: {name}
     - Riik: {country}
-    {city_line}
-    {postal_line}
-    {company_line}
-    {project_line}
-    {affiliation_line}
-
-    - Kirjutage professionaalne e-kirja mustand. See peaks olema viisakas, lühike ja mitte ületama nelja lõiku.
-    - Tõstke esile oma isiklik suhe avatud lähtekoodiga.
+      {city_line}{postal_line}{company_line}{project_line}{affiliation_line}
+    - Kirjutage professionaalne e-kiri. See peaks olema viisakas, lühike ja mitte ületama nelja lõiku.
+    - Tõstke esile oma isiklik suhe avatud lähtekoodiga, kus võimalik.
     - Peamine teema on digitaalne suveräänsus. Peamine eesmärk on paluda asjakohasel Euroopa Parlamendi liikmel toetada Euroopa suvereense tehnoloogia fondi. Teisene eesmärk on edendada avatud lähtekoodiga hangete progressiivsemat poliitikat.
-    - Viidake järgmistele allikatele: https://www.linuxfoundation.org/hubfs/Research%20Reports/WorldofOS_EUSpotlight_2025_081525.pdf või https://eu-stf.openforumeurope.org/wp-content/uploads/2025/08/EU-STF-Feasibility-Study_final.pdf
+    - Viidake järgmistele juhenditele: https://www.linuxfoundation.org/hubfs/Research%20Reports/WorldofOS_EUSpotlight_2025_081525.pdf või https://eu-stf.openforumeurope.org/wp-content/uploads/2025/08/EU-STF-Feasibility-Study_final.pdf
     - Kasutage vähemalt ühte antud linki oma argumendi toetamiseks.
     - Esitatud teabe põhjal leidke kõige sobivam Euroopa Parlamendi liige. Ideaalis seotud linnaga või teemaga ja kodaniku riigist.
-    - Uurige seda Euroopa Parlamendi liiget Wikipedias, ametlikul veebisaidil ja eluloos. Leidke ametlik roll, komisjoni liikmelisus ja avalikud avaldused tehnoloogia, küberturvalisuse või digitaalse suveräänsuse kohta. Kui see teave on asjakohane, nimetage konkreetne komisjon nimepidi ja viidake varasemale avaldusele või aruandele, et näidata, et olete uurimistööd teinud.
-    - Uurige Euroopa Parlamendi liikme veebisaiti ja e-posti antud aadressi alusel. Postiaadress ja e-post peaksid olema kirjas selgelt esitatud.
+    - Uurige seda Euroopa Parlamendi liiget Wikipedias, ametlikul veebisaidil ja ametlikus nimekirjas (https://www.europarl.europa.eu/meps/en/full-list). Kontrollige nende veebisaiti, e-posti ja postiaadressi.
+    - Tuvastage nende ametlikud rollid, komisjoni liikmelisus ja varasemad avaldused tehnoloogia, küberturvalisuse või digitaalse suveräänsuse kohta. Kui asjakohane, nimetage komisjon nimepidi ja tsiteerige konkreetset avaldust või aruannet.
+    - Esitage Euroopa Parlamendi liikme täielik postiaadress ja ametlik e-posti aadress tervituse kohal standardses ärikirja vormingus.
     - Esitage otsene, viisakas palve, et Euroopa Parlamendi liige toetaks poliitikaid ja investeeringuid, nagu avatud lähtekoodiga hangete korraldamine, mis tugevdavad digitaalset suveräänsust.
     - Tõstke esile, et loodate osaleda FOSDEM-il Brüsselis veebruari alguses ja soovite võimalust isiklikult kohtuda.
     - Määratlege kõik lühendid esmakordsel kasutamisel. Lõpetage viisaka fraasiga ja kutsega edasiseks aruteluks või vastuseks.
     - Hoidke toon viisakas, lühike ja isiklik.
+
+  dialog_message: "<p>Teie päring on kopeeritud brauserisse. Nüüd kopeerige see valitud LLM-i ja vaadake tulemusi.</p><p><strong>Pidage meeles, et olete vastutav genereeritud sisu eest. Katsetage päringuga ja veenduge, et tulemus vastab teie vajadustele.</strong></p>"

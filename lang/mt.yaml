@@ -25,21 +25,20 @@ mt:
     Agħmel bħala ċittadin li qed jikteb ittra b'dawn id-dettalji personali:
     - Isem: {name}
     - Pajjiż: {country}
-    {city_line}
-    {postal_line}
-    {company_line}
-    {project_line}
-    {affiliation_line}
-
+      {city_line}{postal_line}{company_line}{project_line}{affiliation_line}
     - Iktib abbozz professjonali ta' email. Għandu jkun edukat, konċiż u ma jaqbiżx erba' paragrafi.
-    - Enfasizza r-relazzjoni personali tiegħek mal-open source.
-    - Is-suġġett ewlieni huwa s-sovranità diġitali. L-għan ewlieni huwa li titlob lil MEP rilevanti biex jappoġġja l-Fond Ewropew għat-Teknoloġija Sovrana. L-għan sekondarju huwa li tippromwovi politika ta' akkwist aktar progressiva għall-open source.
-    - Irreferi għal dawn is-sorsi: https://www.linuxfoundation.org/hubfs/Research%20Reports/WorldofOS_EUSpotlight_2025_081525.pdf jew https://eu-stf.openforumeurope.org/wp-content/uploads/2025/08/EU-STF-Feasibility-Study_final.pdf
+    - Fejn possibbli, enfasizza r-relazzjoni personali tiegħek mal-open source.
+    - Is-suġġett ewlieni huwa s-sovranità diġitali. L-għan ewlieni huwa li titlob lil MEP rilevanti biex jappoġġja l-Fond Ewropew għat-Teknoloġija Sovrana. L-għan sekondarju huwa li tippromwovi politika ta' akkwist aktar attiva għall-open source.
+    - Irreferi għal dawn il-linji gwida: https://www.linuxfoundation.org/hubfs/Research%20Reports/WorldofOS_EUSpotlight_2025_081525.pdf jew https://eu-stf.openforumeurope.org/wp-content/uploads/2025/08/EU-STF-Feasibility-Study_final.pdf
     - Uża mill-inqas waħda mill-links ipprovduti bħala sors biex tappoġġja l-argument tiegħek.
     - Ibbażat fuq l-informazzjoni pprovduta, sib l-aktar MEP xieraq. Idealment relatat mal-belt jew is-suġġett u mill-pajjiż taċ-ċittadin.
-    - Irriċerka dan il-MEP fuq Wikipedia, is-sit uffiċjali u l-bijografija tiegħu. Sib ir-rwol uffiċjali, is-sħubija fil-kumitat u kwalunkwe dikjarazzjoni pubblika dwar it-teknoloġija, is-sigurtà ċibernetika jew is-sovranità diġitali. Jekk din l-informazzjoni hija rilevanti, semmi l-kumitat speċifiku b'ismu u irreferi għal dikjarazzjoni jew rapport preċedenti biex turi li għamilt ir-riċerka.
-    - Irriċerka s-sit u l-email tal-MEP ibbażat fuq l-indirizz ipprovdut. L-indirizz postali u l-email għandhom ikunu inklużi b'mod ċar fl-ittra.
-    - Agħmel talba diretta, edukata biex il-MEP jappoġġja politiki u investimenti bħall-akkwist tal-open source li jsaħħaħ is-sovranità diġitali.
+    - Irriċerka dan il-MEP fuq Wikipedia, is-sit uffiċjali u l-lista uffiċjali tal-MEPs (https://www.europarl.europa.eu/meps/en/full-list). Ivverifika s-sit web, l-email u l-indirizz postali tiegħu.
+    - Sib ir-rwoli uffiċjali tiegħu, sħubija fil-kumitati u dikjarazzjonijiet preċedenti dwar it-teknoloġija, is-sigurtà ċibernetika jew is-sovranità diġitali. Jekk rilevanti, semmi l-kumitat b'ismu u rreferi għal dikjarazzjoni jew rapport speċifiku.
+    - Daħħal l-indirizz postali sħiħ u l-email uffiċjali tal-MEP 'il fuq mit-tislima fil-format standard tan-negozju.
+    - Agħmel talba diretta, edukata għall-appoġġ ta' politiki u investimenti bħall-akkwist tal-open source li jsaħħu s-sovranità diġitali.
     - Enfasizza li t-tama tiegħek hija li tattendi l-FOSDEM fi Brussell fil-bidu ta' Frar u tixtieq l-opportunità li tiltaqa' personalment.
     - Iddefinixxi l-abbrevjazzjonijiet kollha fl-ewwel użu. Temm b'frażi edukata u stedina għal diskussjoni jew tweġiba ulterjuri.
     - Żomm it-ton edukat, konċiż u personali.
+
+  dialog_message: "<p>Il-prompt tiegħek ġie kkupjat fil-browser tiegħek. Issa kkupjah fil-LLM ta' għażla tiegħek u ara r-riżultati.</p><p><strong>Ftakar li inti responsabbli għall-kontenut li tiġġenera. Esperimenta bil-prompt u assigura li r-riżultat jilħaq il-bżonnijiet tiegħek.</strong></p>"
+

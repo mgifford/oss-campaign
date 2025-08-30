@@ -25,21 +25,19 @@ lv:
     Rīkojieties kā pilsonis, kurš raksta vēstuli ar šādiem personas datiem:
     - Vārds: {name}
     - Valsts: {country}
-    {city_line}
-    {postal_line}
-    {company_line}
-    {project_line}
-    {affiliation_line}
-
+      {city_line}{postal_line}{company_line}{project_line}{affiliation_line}
     - Uzrakstiet profesionālu e-pasta melnrakstu. Tam jābūt pieklājīgam, kodolīgam un nedrīkst pārsniegt četrus paragrāfus.
-    - Uzsvērt savu personīgo saikni ar atvērto kodu.
-    - Galvenā tēma ir digitālā suverenitāte. Galvenais mērķis ir lūgt attiecīgo Eiropas Parlamenta deputātu atbalstīt Eiropas Suverēnās Tehnoloģijas fondu. Otrs mērķis ir veicināt progresīvāku atvērtā koda iepirkuma politiku.
-    - Atsaucieties uz šādiem resursiem: https://www.linuxfoundation.org/hubfs/Research%20Reports/WorldofOS_EUSpotlight_2025_081525.pdf vai https://eu-stf.openforumeurope.org/wp-content/uploads/2025/08/EU-STF-Feasibility-Study_final.pdf
+    - Kad iespējams, uzsvērt savu personīgo saikni ar atvērto kodu.
+    - Galvenā tēma ir digitālā suverenitāte. Galvenais mērķis ir lūgt attiecīgo Eiropas Parlamenta deputātu atbalstīt Eiropas Suverēnās Tehnoloģijas fondu. Otrs mērķis ir veicināt aktīvāku atvērtā koda iepirkuma politiku.
+    - Atsaucieties uz šīm vadlīnijām: https://www.linuxfoundation.org/hubfs/Research%20Reports/WorldofOS_EUSpotlight_2025_081525.pdf vai https://eu-stf.openforumeurope.org/wp-content/uploads/2025/08/EU-STF-Feasibility-Study_final.pdf
     - Izmantojiet vismaz vienu no norādītajām saitēm kā avotu, lai atbalstītu savu argumentu.
     - Pamatojoties uz sniegto informāciju, atrodiet vispiemērotāko Eiropas Parlamenta deputātu. Ideālā gadījumā saistīts ar pilsētu vai tēmu un no pilsoņa valsts.
-    - Izpētiet šo Eiropas Parlamenta deputātu Wikipedia, oficiālajā vietnē un biogrāfijā. Atrodiet oficiālo lomu, komitejas dalību un publiskos paziņojumus par tehnoloģijām, kiberdrošību vai digitālo suverenitāti. Ja šī informācija ir atbilstoša, norādiet konkrētu komiteju pēc nosaukuma un atsaucieties uz iepriekšēju paziņojumu vai ziņojumu, lai parādītu, ka esat veicis izpēti.
-    - Izpētiet Eiropas Parlamenta deputāta vietni un e-pastu, pamatojoties uz norādīto adresi. Pasta adrese un e-pasts skaidri jāiekļauj vēstulē.
-    - Izsakiet tiešu, pieklājīgu lūgumu Eiropas Parlamenta deputātam atbalstīt politiku un ieguldījumus, piemēram, atvērtā koda iepirkumu, kas stiprinās digitālo suverenitāti.
+    - Izpētiet šo Eiropas Parlamenta deputātu Wikipedia, oficiālajā vietnē un EP deputātu oficiālajā sarakstā (https://www.europarl.europa.eu/meps/en/full-list). Pārbaudiet viņa vietni, e-pastu un pasta adresi.
+    - Atrodiet viņa oficiālās lomas, komiteju dalību un iepriekšējos paziņojumus par tehnoloģijām, kiberdrošību vai digitālo suverenitāti. Ja tas ir atbilstoši, miniet komiteju pēc nosaukuma un norādiet konkrētu paziņojumu vai ziņojumu.
+    - Ievietojiet Eiropas Parlamenta deputāta pilnu pasta adresi un oficiālo e-pastu virs sveiciena standarta biznesa formātā.
+    - Izsakiet tiešu, pieklājīgu lūgumu atbalstīt politiku un ieguldījumus, piemēram, atvērtā koda iepirkumu, kas stiprinās digitālo suverenitāti.
     - Uzsvērt, ka cerat piedalīties FOSDEM Briselē februāra sākumā un vēlētos iespēju tikties personīgi.
-    - Definējiet visas saīsinājumus pirmajā lietošanas reizē. Noslēdziet ar pieklājīgu frāzi un aicinājumu uz turpmāku diskusiju vai atbildi.
+    - Definējiet visus saīsinājumus pirmajā lietošanas reizē. Noslēdziet ar pieklājīgu frāzi un aicinājumu uz turpmāku diskusiju vai atbildi.
     - Saglabājiet pieklājīgu, kodolīgu un personisku toni.
+
+  dialog_message: "<p>Jūsu uzdevums ir nokopēts pārlūkprogrammā. Tagad nokopējiet to izvēlētajā LLM un skatiet rezultātus.</p><p><strong>Atcerieties, ka esat atbildīgs par ģenerēto saturu. Eksperimentējiet ar uzdevumu un pārliecinieties, ka rezultāts atbilst jūsu vajadzībām.</strong></p>"

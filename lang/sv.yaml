@@ -25,21 +25,19 @@ sv:
     Agera som en medborgare som skriver ett brev med följande personuppgifter:
     - Namn: {name}
     - Land: {country}
-    {city_line}
-    {postal_line}
-    {company_line}
-    {project_line}
-    {affiliation_line}
-
+      {city_line}{postal_line}{company_line}{project_line}{affiliation_line}
     - Skriv ett professionellt utkast till e-post. Det ska vara artigt, koncist och inte överstiga fyra stycken.
-    - Betona din personliga relation till öppen källkod.
-    - Huvudämnet är digital suveränitet. Huvudmålet är att be en relevant EU-parlamentariker att stödja Europeiska fonden för suverän teknik. Sekundärt mål är att främja mer progressiv upphandlingspolitik för öppen källkod.
-    - Hänvisa till följande resurser: https://www.linuxfoundation.org/hubfs/Research%20Reports/WorldofOS_EUSpotlight_2025_081525.pdf eller https://eu-stf.openforumeurope.org/wp-content/uploads/2025/08/EU-STF-Feasibility-Study_final.pdf
+    - När möjligt, betona din personliga relation till öppen källkod.
+    - Huvudämnet är digital suveränitet. Huvudmålet är att be en relevant EU-parlamentariker att stödja Europeiska fonden för suverän teknik. Sekundärt mål är att främja mer aktiv upphandlingspolitik för öppen källkod.
+    - Hänvisa till dessa riktlinjer: https://www.linuxfoundation.org/hubfs/Research%20Reports/WorldofOS_EUSpotlight_2025_081525.pdf eller https://eu-stf.openforumeurope.org/wp-content/uploads/2025/08/EU-STF-Feasibility-Study_final.pdf
     - Använd minst en av de angivna länkarna som källa för att stödja ditt argument.
     - Baserat på den information som tillhandahålls, hitta den mest lämpliga EU-parlamentarikern. Helst relaterad till staden eller ämnet och från medborgarens land.
-    - Undersök denna EU-parlamentariker på Wikipedia, officiella webbplatsen och biografin. Hitta den officiella rollen, kommittédeltagande och eventuella offentliga uttalanden om teknik, cybersäkerhet eller digital suveränitet. Om denna information är relevant, nämn den specifika kommittén vid namn och hänvisa till ett tidigare uttalande eller rapport för att visa att du har gjort din research.
-    - Undersök EU-parlamentarikerens webbplats och e-post baserat på den angivna adressen. Postadress och e-post ska tydligt inkluderas i brevet.
-    - Gör en direkt, artig begäran om att EU-parlamentarikern ska stödja policyer och investeringar som upphandling av öppen källkod som stärker digital suveränitet.
+    - Undersök denna EU-parlamentariker på Wikipedia, officiella webbplatsen och den officiella listan över ledamöter (https://www.europarl.europa.eu/meps/en/full-list). Verifiera deras webbplats, e-post och postadress.
+    - Hitta deras officiella roller, kommittédeltagande och tidigare uttalanden om teknik, cybersäkerhet eller digital suveränitet. Om relevant, nämn kommittén vid namn och citera ett specifikt uttalande eller rapport.
+    - Infoga EU-parlamentarikerens fullständiga postadress och officiella e-post ovanför hälsningsfrasen i standardformat för affärsbrev.
+    - Gör en direkt, artig begäran om stöd för policyer och investeringar som upphandling av öppen källkod som stärker digital suveränitet.
     - Betona att du hoppas delta på FOSDEM i Bryssel i början av februari och skulle vilja ha möjlighet att träffas personligen.
     - Definiera alla förkortningar vid första användning. Avsluta med en artig fras och inbjudan till vidare diskussion eller svar.
     - Håll tonen artig, koncis och personlig.
+
+  dialog_message: "<p>Din prompt har kopierats till din webbläsare. Kopiera den nu till det LLM du väljer och se resultaten.</p><p><strong>Kom ihåg att du är ansvarig för det innehåll du genererar. Experimentera med prompten och kontrollera att resultatet uppfyller dina behov.</strong></p>"

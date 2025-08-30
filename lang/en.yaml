@@ -14,14 +14,7 @@ en:
   dark_mode: "Dark Mode"
   light_mode: "Light Mode"
   header: "Europe Needs to Invest in Digital Sovereignty Now"
-  desc: "<p>Do you believe you should have more control over what happens to your data? What about the governments whose services you rely on every day? This campaign is your chance to act together and make sure the European Parliament hears the open source community loud and clear.</p>
-            <h2>Here’s how to take action in three steps:</h2>
-            <ol>
-                <li>Open the form. It’s pre-filled to get you started, but it collects no personal data.</li>
-                <li>Make it personal. Copy the message into your favourite LLM or editor, tweak it to reflect your own experience, and send it from your personal (or work) email. Authentic messages matter more than templates.</li>
-                <li>Follow up. This campaign will conclude at FOSDEM, where we’ll connect and make sure policymakers see the strength of our community.</li>
-            </ol>
-        <p>We are keeping this campaign different from past efforts: no canned mass emails, no one-size-fits-all text. This is about real people speaking directly to their representatives about why open source matters.</p>"
+  desc: "<p>Do you believe you should have more control over what happens to your data? What about the governments whose services you rely on every day? This campaign is your chance to act together and make sure the European Parliament hears the open source community loud and clear.</p><h2>Here’s how to take action in three steps:</h2><ol><li>Open the form. It’s pre-filled to get you started, but it collects no personal data.</li><li>Make it personal. Copy the message into your favourite LLM or editor, tweak it to reflect your own experience, and send it from your personal (or work) email. Authentic messages matter more than templates.</li><li>Follow up. This campaign will conclude at FOSDEM, where we’ll connect and make sure policymakers see the strength of our community.</li></ol><p>We are keeping this campaign different from past efforts: no canned mass emails, no one-size-fits-all text. This is about real people speaking directly to their representatives about why open source matters.</p>"
   affiliations:
     - "-- Select or auto-filled --"
     - "Drupal Association"
@@ -32,21 +25,20 @@ en:
     Act as a constituent writing a letter with the following personal details:
     - Name: {name}
     - Country: {country}
-    {city_line}
-    {postal_line}
-    {company_line}
-    {project_line}
-    {affiliation_line}
-
+      {city_line}{postal_line}{company_line}{project_line}{affiliation_line}
     - Write a professional email draft. It should be polite, concise, and no more than four paragraphs long.
     - Where possible highlight my personal connection to open source.
     - The main topic is Digital Sovereignty. The primary goal is to request that a relevant MEP provide support for the EU Soverign Tech Fund. Secondary goal is for more proactive open source procurement policies.
     - Reference the following guide either https://www.linuxfoundation.org/hubfs/Research%20Reports/WorldofOS_EUSpotlight_2025_081525.pdf or https://eu-stf.openforumeurope.org/wp-content/uploads/2025/08/EU-STF-Feasibility-Study_final.pdf
     - Use at least one of the provided links to cite a source that supports your argument.
     - Given the information provided, find the most appropriate MEP. Ideally it would be someone tied to the city or the topic, and from the country of the constituent.
-    - Research that MEP using wikipedia, their official web page and bio. Find the official role, committee memberships, and any public statements they have made on technology, cybersecurity, or digital sovereignty. If this information is related to the request, mention their specific committee by name and reference a relevant past statement or report to show you have done your research.
-    - Research the website and email for the MEP, based on the address provided. The mail address and email should be clearly included in the formatted letter.
+    - Research the MEP using Wikipedia, their official page, and the official list of MEPs (https://www.europarl.europa.eu/meps/en/full-list). Validate their website, email, and postal address.
+    - Identify their official roles, committee memberships, and past statements on technology, cybersecurity, or digital sovereignty. If relevant, reference the committee by name and cite a specific statement or report.
+    - Place the MEP’s full postal address and official email above the salutation in standard business letter format.
     - Make a direct, respectful request for the MEP to support policies and investments such as procuring open source which will better support digital sovereignty.
     - Highlight that you are hoping to attend FOSDEM in Brussels in early February, and would love an opportunity to meet in person.
     - Define all acronyms on first use. End with a polite closing and invitation for further discussion or reply.
     - Keep the tone respectful, concise, and personal.
+
+  dialog_message: "<p>Your prompt has been copied to your browser. Now copy it into the LLM of your choice, and see the results.</p><p><strong>Remember that you are responsible for the content you generate. Experiment with the prompt and verify that you get a result that meets your needs</strong></p>"
+

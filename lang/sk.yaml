@@ -25,21 +25,19 @@ sk:
     Konajte ako občan, ktorý píše list s nasledujúcimi osobnými údajmi:
     - Meno: {name}
     - Krajina: {country}
-    {city_line}
-    {postal_line}
-    {company_line}
-    {project_line}
-    {affiliation_line}
-
+      {city_line}{postal_line}{company_line}{project_line}{affiliation_line}
     - Napíšte profesionálny návrh e-mailu. Mal by byť zdvorilý, stručný a nemal by presiahnuť štyri odseky.
-    - Zdôraznite svoj osobný vzťah k otvorenému softvéru.
-    - Hlavnou témou je digitálna suverenita. Hlavným cieľom je požiadať relevantného europoslanca, aby podporil Európsky fond pre suverénne technológie. Vedľajším cieľom je podpora progresívnejšej politiky verejného obstarávania pre otvorený softvér.
-    - Odkazujte na nasledujúce zdroje: https://www.linuxfoundation.org/hubfs/Research%20Reports/WorldofOS_EUSpotlight_2025_081525.pdf alebo https://eu-stf.openforumeurope.org/wp-content/uploads/2025/08/EU-STF-Feasibility-Study_final.pdf
+    - Kde je to možné, zdôraznite svoj osobný vzťah k otvorenému softvéru.
+    - Hlavnou témou je digitálna suverenita. Hlavným cieľom je požiadať relevantného europoslanca, aby podporil Európsky fond pre suverénne technológie. Vedľajším cieľom je podpora aktívnejšej politiky verejného obstarávania pre otvorený softvér.
+    - Odkazujte na tieto usmernenia: https://www.linuxfoundation.org/hubfs/Research%20Reports/WorldofOS_EUSpotlight_2025_081525.pdf alebo https://eu-stf.openforumeurope.org/wp-content/uploads/2025/08/EU-STF-Feasibility-Study_final.pdf
     - Použite aspoň jeden z poskytnutých odkazov ako zdroj na podporu svojho argumentu.
     - Na základe poskytnutých informácií nájdite najvhodnejšieho europoslanca. Ideálne by mal súvisieť s mestom alebo témou a pochádzať z krajiny občana.
-    - Preskúmajte tohto europoslanca na Wikipédii, oficiálnej stránke a v biografii. Nájdite jeho oficiálnu rolu, členstvo v komisiách a verejné vyhlásenia o technológiách, kybernetickej bezpečnosti alebo digitálnej suverenite. Ak sú tieto informácie relevantné, uveďte konkrétnu komisiu menom a odkážte na predchádzajúce vyhlásenie alebo správu, aby ste ukázali, že ste vykonali výskum.
-    - Preskúmajte webovú stránku a e-mail europoslanca na základe poskytnutej adresy. Poštová adresa a e-mail by mali byť jasne uvedené v liste.
-    - Urobte priamu, zdvorilú žiadosť, aby europoslanec podporil politiky a investície, ako je verejné obstarávanie otvoreného softvéru, ktoré posilnia digitálnu suverenitu.
+    - Preskúmajte tohto europoslanca na Wikipédii, oficiálnej stránke a v oficiálnom zozname poslancov (https://www.europarl.europa.eu/meps/en/full-list). Overte ich webovú stránku, e-mail a poštovú adresu.
+    - Nájdite ich oficiálne roly, členstvo v komisiách a predchádzajúce vyhlásenia o technológiách, kybernetickej bezpečnosti alebo digitálnej suverenite. Ak je to relevantné, uveďte komisiu menom a citujte konkrétne vyhlásenie alebo správu.
+    - Vložte úplnú poštovú adresu a oficiálny e-mail europoslanca nad pozdrav v štandardnom obchodnom formáte.
+    - Urobte priamu, zdvorilú žiadosť o podporu politík a investícií, ako je verejné obstarávanie otvoreného softvéru, ktoré posilnia digitálnu suverenitu.
     - Zdôraznite, že dúfate, že sa zúčastníte FOSDEM v Bruseli začiatkom februára a radi by ste sa osobne stretli.
     - Pri prvom použití vysvetlite všetky skratky. Ukončite zdvorilou frázou a pozvaním na ďalšiu diskusiu alebo odpoveď.
     - Zachovajte zdvorilý, stručný a osobný tón.
+
+  dialog_message: "<p>Váš prompt bol skopírovaný do prehliadača. Teraz ho skopírujte do vybraného LLM a pozrite si výsledky.</p><p><strong>Nezabudnite, že ste zodpovední za vygenerovaný obsah. Experimentujte s promptom a uistite sa, že výsledok zodpovedá vašim potrebám.</strong></p>"

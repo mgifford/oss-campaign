@@ -25,21 +25,19 @@ it:
     Agisci come un cittadino che scrive una lettera con i seguenti dati personali:
     - Nome: {name}
     - Paese: {country}
-    {city_line}
-    {postal_line}
-    {company_line}
-    {project_line}
-    {affiliation_line}
-
+      {city_line}{postal_line}{company_line}{project_line}{affiliation_line}
     - Scrivi una bozza di email professionale. Deve essere educata, concisa e non superare i quattro paragrafi.
-    - Evidenzia la tua connessione personale con l'open source.
-    - Il tema principale è la sovranità digitale. L'obiettivo principale è chiedere a un eurodeputato di sostenere l'EU Sovereign Tech Fund. L'obiettivo secondario è promuovere politiche di acquisizione più proattive per l'open source.
-    - Fai riferimento a una delle seguenti guide: https://www.linuxfoundation.org/hubfs/Research%20Reports/WorldofOS_EUSpotlight_2025_081525.pdf oppure https://eu-stf.openforumeurope.org/wp-content/uploads/2025/08/EU-STF-Feasibility-Study_final.pdf
+    - Quando possibile, evidenzia la tua connessione personale con l'open source.
+    - Il tema principale è la sovranità digitale. L'obiettivo principale è chiedere a un eurodeputato di sostenere l'EU Sovereign Tech Fund. L'obiettivo secondario è promuovere politiche di acquisizione più attive per l'open source.
+    - Fai riferimento a queste linee guida: https://www.linuxfoundation.org/hubfs/Research%20Reports/WorldofOS_EUSpotlight_2025_081525.pdf oppure https://eu-stf.openforumeurope.org/wp-content/uploads/2025/08/EU-STF-Feasibility-Study_final.pdf
     - Usa almeno uno dei link forniti per citare una fonte che supporti il tuo argomento.
     - In base alle informazioni fornite, trova l'eurodeputato più appropriato. Idealmente, dovrebbe essere legato alla città o all'argomento e provenire dal paese del cittadino.
-    - Ricerca quell'eurodeputato su Wikipedia, sul suo sito ufficiale e nella biografia. Trova il ruolo ufficiale, le appartenenze ai comitati e qualsiasi dichiarazione pubblica su tecnologia, cybersicurezza o sovranità digitale. Se queste informazioni sono rilevanti, menziona il comitato specifico per nome e fai riferimento a una dichiarazione o rapporto pertinente per dimostrare che hai fatto ricerche.
-    - Ricerca il sito web e l'email dell'eurodeputato, in base all'indirizzo fornito. L'indirizzo postale e l'email devono essere chiaramente inclusi nella lettera formattata.
-    - Fai una richiesta diretta e rispettosa affinché l'eurodeputato sostenga politiche e investimenti come l'acquisizione di open source che rafforzeranno la sovranità digitale.
+    - Ricerca quell'eurodeputato su Wikipedia, sul suo sito ufficiale e nell'elenco ufficiale dei deputati (https://www.europarl.europa.eu/meps/en/full-list). Verifica il suo sito web, email e indirizzo postale.
+    - Trova i suoi ruoli ufficiali, le appartenenze ai comitati e le precedenti dichiarazioni su tecnologia, cybersicurezza o sovranità digitale. Se pertinente, cita il comitato per nome e menziona una dichiarazione o rapporto specifico.
+    - Inserisci l'indirizzo postale completo e l'email ufficiale dell'eurodeputato sopra il saluto nel formato commerciale standard.
+    - Fai una richiesta diretta e rispettosa per il sostegno a politiche e investimenti come l'acquisizione di open source che rafforzeranno la sovranità digitale.
     - Sottolinea che speri di partecipare a FOSDEM a Bruxelles a inizio febbraio e che ti piacerebbe avere l'opportunità di incontrarti di persona.
     - Definisci tutte le sigle al primo utilizzo. Termina con una chiusura educata e un invito a continuare la conversazione o a rispondere.
     - Mantieni un tono rispettoso, conciso e personale.
+
+  dialog_message: "<p>Il tuo prompt è stato copiato nel browser. Ora copialo nel LLM di tua scelta e guarda i risultati.</p><p><strong>Ricorda che sei responsabile del contenuto che generi. Sperimenta con il prompt e verifica che il risultato soddisfi le tue esigenze.</strong></p>"

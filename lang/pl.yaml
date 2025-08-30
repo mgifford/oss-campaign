@@ -25,21 +25,19 @@ pl:
     Działaj jako obywatel piszący list z następującymi danymi osobowymi:
     - Imię: {name}
     - Kraj: {country}
-    {city_line}
-    {postal_line}
-    {company_line}
-    {project_line}
-    {affiliation_line}
-
+      {city_line}{postal_line}{company_line}{project_line}{affiliation_line}
     - Napisz profesjonalny szkic e-maila. Powinien być uprzejmy, zwięzły i nie dłuższy niż cztery akapity.
-    - Podkreśl swoje osobiste powiązania z open source.
-    - Głównym tematem jest suwerenność cyfrowa. Głównym celem jest poproszenie odpowiedniego europosła o wsparcie Europejskiego Funduszu Technologii Suwerennej. Celem dodatkowym jest promowanie bardziej proaktywnej polityki zamówień publicznych open source.
-    - Odwołaj się do jednego z następujących przewodników: https://www.linuxfoundation.org/hubfs/Research%20Reports/WorldofOS_EUSpotlight_2025_081525.pdf lub https://eu-stf.openforumeurope.org/wp-content/uploads/2025/08/EU-STF-Feasibility-Study_final.pdf
+    - Gdzie to możliwe, podkreśl swoje osobiste powiązania z open source.
+    - Głównym tematem jest suwerenność cyfrowa. Głównym celem jest poproszenie odpowiedniego europosła o wsparcie Europejskiego Funduszu Technologii Suwerennej. Celem dodatkowym jest promowanie bardziej aktywnej polityki zamówień publicznych open source.
+    - Odwołaj się do tych wytycznych: https://www.linuxfoundation.org/hubfs/Research%20Reports/WorldofOS_EUSpotlight_2025_081525.pdf lub https://eu-stf.openforumeurope.org/wp-content/uploads/2025/08/EU-STF-Feasibility-Study_final.pdf
     - Użyj co najmniej jednego z podanych linków, aby zacytować źródło wspierające Twój argument.
     - Na podstawie podanych informacji znajdź najbardziej odpowiedniego europosła. Najlepiej, aby był związany z miastem lub tematem i pochodził z kraju obywatela.
-    - Zbadaj tego europosła na Wikipedii, jego oficjalnej stronie i w biografii. Znajdź oficjalną rolę, członkostwo w komisjach i wszelkie publiczne wypowiedzi na temat technologii, cyberbezpieczeństwa lub suwerenności cyfrowej. Jeśli te informacje są istotne, wymień konkretną komisję z nazwy i odwołaj się do odpowiedniej wcześniejszej wypowiedzi lub raportu, aby pokazać, że przeprowadziłeś badania.
-    - Zbadaj stronę internetową i adres e-mail europosła na podstawie podanego adresu. Adres pocztowy i e-mail powinny być wyraźnie zawarte w sformatowanym liście.
+    - Zbadaj tego europosła na Wikipedii, jego oficjalnej stronie i na oficjalnej liście posłów (https://www.europarl.europa.eu/meps/en/full-list). Zweryfikuj jego stronę internetową, e-mail i adres pocztowy.
+    - Znajdź jego oficjalne role, członkostwo w komisjach i wcześniejsze wypowiedzi na temat technologii, cyberbezpieczeństwa lub suwerenności cyfrowej. Jeśli to istotne, wymień komisję z nazwy i przywołaj konkretną wypowiedź lub raport.
+    - Umieść pełny adres pocztowy i oficjalny adres e-mail europosła nad powitaniem w standardowym formacie biznesowym.
     - Złóż bezpośrednią, uprzejmą prośbę o wsparcie polityk i inwestycji, takich jak zamówienia publiczne open source, które wzmocnią suwerenność cyfrową.
     - Podkreśl, że masz nadzieję uczestniczyć w FOSDEM w Brukseli na początku lutego i chciałbyś mieć okazję spotkać się osobiście.
     - Zdefiniuj wszystkie skróty przy pierwszym użyciu. Zakończ uprzejmym zakończeniem i zaproszeniem do dalszej dyskusji lub odpowiedzi.
     - Zachowaj uprzejmy, zwięzły i osobisty ton.
+
+  dialog_message: "<p>Twój prompt został skopiowany do przeglądarki. Teraz skopiuj go do wybranego LLM i zobacz wyniki.</p><p><strong>Pamiętaj, że jesteś odpowiedzialny za wygenerowaną treść. Eksperymentuj z promptem i upewnij się, że wynik spełnia Twoje potrzeby.</strong></p>"

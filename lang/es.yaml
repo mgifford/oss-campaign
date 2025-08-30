@@ -25,21 +25,19 @@ es:
     Actúa como un ciudadano que escribe una carta con los siguientes datos personales:
     - Nombre: {name}
     - País: {country}
-    {city_line}
-    {postal_line}
-    {company_line}
-    {project_line}
-    {affiliation_line}
-
-    - Escribe un borrador de correo profesional. Debe ser educado, conciso y no tener más de cuatro párrafos.
-    - Destaca tu conexión personal con el código abierto.
+      {city_line}{postal_line}{company_line}{project_line}{affiliation_line}
+    - Escribe un correo profesional. Debe ser educado, conciso y no tener más de cuatro párrafos.
+    - Donde sea posible, destaca tu conexión personal con el código abierto.
     - El tema principal es la soberanía digital. El objetivo principal es solicitar a un eurodiputado relevante que apoye el Fondo Europeo de Tecnología Soberana. El objetivo secundario es fomentar políticas de adquisición más proactivas para el código abierto.
     - Haz referencia a la siguiente guía: https://www.linuxfoundation.org/hubfs/Research%20Reports/WorldofOS_EUSpotlight_2025_081525.pdf o https://eu-stf.openforumeurope.org/wp-content/uploads/2025/08/EU-STF-Feasibility-Study_final.pdf
     - Utiliza al menos uno de los enlaces proporcionados para citar una fuente que respalde tu argumento.
     - Según la información proporcionada, encuentra el eurodiputado más adecuado. Idealmente, alguien vinculado a la ciudad o al tema, y del país del ciudadano.
-    - Investiga a ese eurodiputado en Wikipedia, su página oficial y biografía. Encuentra el cargo oficial, membresías en comités y cualquier declaración pública que haya hecho sobre tecnología, ciberseguridad o soberanía digital. Si esta información es relevante, menciona el comité específico por nombre y haz referencia a una declaración o informe relevante para demostrar que has investigado.
-    - Investiga el sitio web y el correo electrónico del eurodiputado, según la dirección proporcionada. La dirección postal y el correo electrónico deben estar claramente incluidos en la carta.
+    - Investiga a ese eurodiputado en Wikipedia, su página oficial y la lista oficial de eurodiputados (https://www.europarl.europa.eu/meps/en/full-list). Verifica su sitio web, correo electrónico y dirección postal.
+    - Identifica su cargo oficial, membresías en comités y declaraciones previas sobre tecnología, ciberseguridad o soberanía digital. Si es relevante, menciona el comité por nombre y cita una declaración o informe específico.
+    - Coloca la dirección postal completa y el correo electrónico oficial del eurodiputado antes del saludo en formato de carta comercial estándar.
     - Haz una solicitud directa y respetuosa para que el eurodiputado apoye políticas e inversiones como la adquisición de código abierto que fortalecerán la soberanía digital.
     - Destaca que esperas asistir a FOSDEM en Bruselas a principios de febrero y que te gustaría tener la oportunidad de reunirte en persona.
     - Define todas las siglas en su primer uso. Termina con un cierre educado e invitación a continuar la conversación o responder.
     - Mantén un tono respetuoso, conciso y personal.
+
+  dialog_message: "<p>Tu mensaje se ha copiado en el navegador. Ahora cópialo en el LLM de tu elección y observa los resultados.</p><p><strong>Recuerda que eres responsable del contenido que generes. Experimenta con el mensaje y verifica que el resultado se ajuste a tus necesidades.</strong></p>"

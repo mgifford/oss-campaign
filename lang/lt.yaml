@@ -25,21 +25,20 @@ lt:
     Veikite kaip pilietis, rašantis laišką su šiais asmeniniais duomenimis:
     - Vardas: {name}
     - Šalis: {country}
-    {city_line}
-    {postal_line}
-    {company_line}
-    {project_line}
-    {affiliation_line}
-
+      {city_line}{postal_line}{company_line}{project_line}{affiliation_line}
     - Parašykite profesionalų el. laiško juodraštį. Jis turi būti mandagus, glaustas ir neviršyti keturių pastraipų.
-    - Pabrėžkite savo asmeninį ryšį su atviru kodu.
-    - Pagrindinė tema – skaitmeninis suverenitetas. Pagrindinis tikslas – paprašyti atitinkamo europarlamentaro palaikyti Europos suverenių technologijų fondą. Antrinis tikslas – skatinti pažangesnę atviro kodo viešųjų pirkimų politiką.
-    - Nurodykite šiuos šaltinius: https://www.linuxfoundation.org/hubfs/Research%20Reports/WorldofOS_EUSpotlight_2025_081525.pdf arba https://eu-stf.openforumeurope.org/wp-content/uploads/2025/08/EU-STF-Feasibility-Study_final.pdf
+    - Kai įmanoma, pabrėžkite savo asmeninį ryšį su atviru kodu.
+    - Pagrindinė tema – skaitmeninis suverenitetas. Pagrindinis tikslas – paprašyti atitinkamo europarlamentaro palaikyti Europos suverenių technologijų fondą. Antrinis tikslas – skatinti aktyvesnę atviro kodo viešųjų pirkimų politiką.
+    - Nurodykite šias gaires: https://www.linuxfoundation.org/hubfs/Research%20Reports/WorldofOS_EUSpotlight_2025_081525.pdf arba https://eu-stf.openforumeurope.org/wp-content/uploads/2025/08/EU-STF-Feasibility-Study_final.pdf
     - Naudokite bent vieną iš pateiktų nuorodų kaip šaltinį savo argumentui pagrįsti.
     - Remdamiesi pateikta informacija, raskite tinkamiausią europarlamentarą. Idealiu atveju susijusį su miestu ar tema ir iš piliečio šalies.
-    - Ištirkite šį europarlamentarą Vikipedijoje, oficialioje svetainėje ir biografijoje. Suraskite oficialų vaidmenį, komiteto narystę ir viešus pareiškimus apie technologijas, kibernetinį saugumą ar skaitmeninį suverenitetą. Jei ši informacija aktuali, nurodykite konkretų komitetą vardu ir remkitės ankstesniu pareiškimu ar ataskaita, kad parodytumėte, jog atlikote tyrimą.
-    - Ištirkite europarlamentaro svetainę ir el. paštą pagal pateiktą adresą. Pašto adresas ir el. paštas turi būti aiškiai nurodyti laiške.
-    - Pateikite tiesioginį, mandagų prašymą, kad europarlamentaras palaikytų politiką ir investicijas, tokias kaip atviro kodo viešieji pirkimai, kurie sustiprins skaitmeninį suverenitetą.
+    - Ištirkite šį europarlamentarą Vikipedijoje, oficialioje svetainėje ir oficialiame EP narių sąraše (https://www.europarl.europa.eu/meps/en/full-list). Patikrinkite jo svetainę, el. paštą ir pašto adresą.
+    - Raskite jo oficialias pareigas, komitetų narystę ir ankstesnius pareiškimus apie technologijas, kibernetinį saugumą ar skaitmeninį suverenitetą. Jei aktualu, paminėkite komitetą vardu ir nurodykite konkretų pareiškimą ar ataskaitą.
+    - Įterpkite pilną europarlamentaro pašto adresą ir oficialų el. paštą virš pasisveikinimo standartine verslo forma.
+    - Pateikite tiesioginį, mandagų prašymą palaikyti politiką ir investicijas, tokias kaip atviro kodo viešieji pirkimai, kurie sustiprins skaitmeninį suverenitetą.
     - Pabrėžkite, kad tikitės dalyvauti FOSDEM Briuselyje vasario pradžioje ir norėtumėte galimybės susitikti asmeniškai.
-    - Apibrėžkite visus santrumpas pirmą kartą naudojant. Baikite mandagia fraze ir kvietimu tolesniam pokalbiui ar atsakymui.
+    - Apibrėžkite visas santrumpas pirmą kartą naudojant. Baikite mandagia fraze ir kvietimu tolesniam pokalbiui ar atsakymui.
     - Išlaikykite mandagų, glaustą ir asmenišką toną.
+
+  dialog_message: "<p>Jūsų užklausa buvo nukopijuota į naršyklę. Dabar nukopijuokite ją į pasirinktą LLM ir peržiūrėkite rezultatus.</p><p><strong>Atminkite, kad esate atsakingi už sugeneruotą turinį. Eksperimentuokite su užklausa ir įsitikinkite, kad rezultatas atitinka jūsų poreikius.</strong></p>"
+

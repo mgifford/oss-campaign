@@ -25,21 +25,19 @@ ga:
     Déan gníomh mar shaoránach atá ag scríobh litir leis na sonraí pearsanta seo a leanas:
     - Ainm: {name}
     - Tír: {country}
-    {city_line}
-    {postal_line}
-    {company_line}
-    {project_line}
-    {affiliation_line}
-
-    - Scríobh dréacht gairmiúil ríomhphoist. Ba chóir go mbeadh sé béasach, gonta agus gan dul thar ceithre pharagraif.
-    - Leag béim ar do chaidreamh pearsanta le foinse oscailte.
-    - Is é príomhábhar an suverenacht dhigiteach. Is é an príomhchuspóir ná iarratas a dhéanamh ar Fheisire Eorpach ábhartha tacú leis an gCiste Eorpach um Theicneolaíocht Suveránach. Is é an dara cuspóir ná beartais soláthair níos forásaí a chur chun cinn do foinse oscailte.
-    - Déan tagairt do na hacmhainní seo a leanas: https://www.linuxfoundation.org/hubfs/Research%20Reports/WorldofOS_EUSpotlight_2025_081525.pdf nó https://eu-stf.openforumeurope.org/wp-content/uploads/2025/08/EU-STF-Feasibility-Study_final.pdf
+      {city_line}{postal_line}{company_line}{project_line}{affiliation_line}
+    - Scríobh ríomhphost gairmiúil. Ba chóir go mbeadh sé béasach, gonta agus gan dul thar ceithre pharagraif.
+    - Nuair is féidir, leag béim ar do chaidreamh pearsanta le foinse oscailte.
+    - Is é príomhábhar an suverenacht dhigiteach. Is é an príomhchuspóir ná iarratas a dhéanamh ar Fheisire Eorpach ábhartha tacú leis an gCiste Eorpach um Theicneolaíocht Suveránach. Is é an dara cuspóir ná beartais soláthair níos gníomhaí a chur chun cinn do foinse oscailte.
+    - Déan tagairt do na treoirlínte seo: https://www.linuxfoundation.org/hubfs/Research%20Reports/WorldofOS_EUSpotlight_2025_081525.pdf nó https://eu-stf.openforumeurope.org/wp-content/uploads/2025/08/EU-STF-Feasibility-Study_final.pdf
     - Úsáid ar a laghad ceann de na naisc a chuirtear ar fáil mar fhoinse chun tacú le d'argóint.
     - Bunaithe ar an eolas a chuirtear ar fáil, aimsigh an Feisire Eorpach is oiriúnaí. Go hidéalach, ba cheart go mbeadh baint aige leis an gcathair nó leis an ábhar agus go mbeadh sé as tír an tsaoránaigh.
-    - Déan taighde ar an bhFeisire Eorpach seo ar Vicipéid, ar an suíomh gréasáin oifigiúil agus ar a bheathaisnéis. Faigh an ról oifigiúil, ballraíocht coiste agus aon ráitis phoiblí faoi theicneolaíocht, cibearshlándáil nó suverenacht dhigiteach. Má tá an t-eolas seo ábhartha, luaigh an coiste sonrach agus déan tagairt do ráiteas nó tuarascáil roimhe seo chun a thaispeáint go ndearna tú taighde.
-    - Déan taighde ar shuíomh gréasáin agus r-phost an Fheisire Eorpaigh bunaithe ar an seoladh a chuirtear ar fáil. Ba chóir go mbeadh an seoladh poist agus an r-phost le feiceáil go soiléir sa litir.
-    - Déan iarratas díreach, béasach ar an bhFeisire Eorpach tacú le beartais agus infheistíochtaí cosúil le soláthar foinse oscailte a neartóidh suverenacht dhigiteach.
+    - Déan taighde ar an bhFeisire Eorpach seo ar Vicipéid, ar a shuíomh oifigiúil agus ar liosta oifigiúil na bhFeisirí Eorpacha (https://www.europarl.europa.eu/meps/en/full-list). Deimhnigh a shuíomh gréasáin, r-phost agus seoladh poist.
+    - Aimsigh a róil oifigiúla, ballraíocht coistí agus ráitis roimhe seo faoi theicneolaíocht, cibearshlándáil nó suverenacht dhigiteach. Má tá sé ábhartha, luaigh an coiste de réir ainm agus luaigh ráiteas nó tuarascáil shonrach.
+    - Cuir seoladh iomlán poist agus r-phost oifigiúil an Fheisire Eorpaigh os cionn na beannachta i bhformáid chaighdeánach ghnó.
+    - Déan iarratas díreach, béasach ar thacaíocht do bheartais agus infheistíochtaí cosúil le soláthar foinse oscailte a neartóidh suverenacht dhigiteach.
     - Leag béim ar an dóchas go mbeidh tú i láthair ag FOSDEM sa Bhruiséil go luath i mí Feabhra agus gur mhaith leat an deis bualadh le chéile go pearsanta.
     - Sainmhínigh gach giorrúchán ar an gcéad úsáid. Críochnaigh le frása béasach agus cuireadh chun tuilleadh plé nó freagra.
     - Coinnigh an tón béasach, gonta agus pearsanta.
+
+  dialog_message: "<p>Tá do prompt cóipeáilte chuig do bhrabhsálaí. Cóipeáil anois é chuig an LLM de do rogha agus féach ar na torthaí.</p><p><strong>Cuimhnigh go bhfuil tú freagrach as an ábhar a ghineann tú. Déan turgnamh leis an prompt agus cinntigh go gcomhlíonann an toradh do riachtanais.</strong></p>"

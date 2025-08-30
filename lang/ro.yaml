@@ -25,21 +25,19 @@ ro:
     Acționați ca un cetățean care scrie o scrisoare cu următoarele date personale:
     - Nume: {name}
     - Țară: {country}
-    {city_line}
-    {postal_line}
-    {company_line}
-    {project_line}
-    {affiliation_line}
-
+      {city_line}{postal_line}{company_line}{project_line}{affiliation_line}
     - Scrieți un draft de e-mail profesional. Trebuie să fie politicos, concis și să nu depășească patru paragrafe.
-    - Evidențiați legătura personală cu open source.
-    - Subiectul principal este suveranitatea digitală. Scopul principal este să solicitați unui europarlamentar relevant să sprijine Fondul European pentru Tehnologie Suverană. Scopul secundar este promovarea unor politici de achiziții mai proactive pentru open source.
-    - Faceți referire la următorul ghid: https://www.linuxfoundation.org/hubfs/Research%20Reports/WorldofOS_EUSpotlight_2025_081525.pdf sau https://eu-stf.openforumeurope.org/wp-content/uploads/2025/08/EU-STF-Feasibility-Study_final.pdf
+    - Unde este posibil, evidențiați legătura personală cu open source.
+    - Subiectul principal este suveranitatea digitală. Scopul principal este să solicitați unui europarlamentar relevant să sprijine Fondul European pentru Tehnologie Suverană. Scopul secundar este promovarea unor politici de achiziții mai active pentru open source.
+    - Faceți referire la aceste orientări: https://www.linuxfoundation.org/hubfs/Research%20Reports/WorldofOS_EUSpotlight_2025_081525.pdf sau https://eu-stf.openforumeurope.org/wp-content/uploads/2025/08/EU-STF-Feasibility-Study_final.pdf
     - Utilizați cel puțin unul dintre linkurile furnizate pentru a cita o sursă care vă susține argumentul.
     - Pe baza informațiilor furnizate, găsiți cel mai potrivit europarlamentar. Ideal ar fi să fie legat de oraș sau subiect și să fie din țara cetățeanului.
-    - Cercetați acel europarlamentar pe Wikipedia, pe site-ul oficial și în biografie. Găsiți rolul oficial, apartenența la comisii și orice declarații publice despre tehnologie, securitate cibernetică sau suveranitate digitală. Dacă aceste informații sunt relevante, menționați comisia specifică după nume și faceți referire la o declarație sau raport relevant pentru a arăta că ați făcut cercetări.
-    - Cercetați site-ul web și adresa de e-mail a europarlamentarului, pe baza adresei furnizate. Adresa poștală și e-mailul trebuie să fie clar incluse în scrisoarea formatată.
-    - Faceți o solicitare directă și respectuoasă pentru ca europarlamentarul să sprijine politici și investiții precum achiziția de open source care va consolida suveranitatea digitală.
+    - Cercetați acel europarlamentar pe Wikipedia, pe site-ul oficial și în lista oficială a deputaților (https://www.europarl.europa.eu/meps/en/full-list). Verificați site-ul web, e-mailul și adresa poștală.
+    - Găsiți rolurile oficiale, apartenența la comisii și declarațiile anterioare despre tehnologie, securitate cibernetică sau suveranitate digitală. Dacă este relevant, menționați comisia după nume și citați o declarație sau un raport specific.
+    - Introduceți adresa poștală completă și adresa de e-mail oficială a europarlamentarului deasupra salutului în format standard de afaceri.
+    - Faceți o solicitare directă și respectuoasă pentru sprijinirea politicilor și investițiilor precum achiziția de open source care va consolida suveranitatea digitală.
     - Evidențiați că sperați să participați la FOSDEM la Bruxelles la începutul lunii februarie și că ați dori să aveți ocazia să vă întâlniți personal.
     - Definiți toate acronimele la prima utilizare. Încheiați cu o formulă de încheiere politicoasă și o invitație la discuții sau răspuns.
     - Mențineți un ton respectuos, concis și personal.
+
+  dialog_message: "<p>Promptul dvs. a fost copiat în browser. Acum copiați-l în LLM-ul ales și vedeți rezultatele.</p><p><strong>Rețineți că sunteți responsabil pentru conținutul generat. Experimentați cu promptul și asigurați-vă că rezultatul corespunde nevoilor dvs.</strong></p>"

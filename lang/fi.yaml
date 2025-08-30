@@ -25,21 +25,20 @@ fi:
     Toimi kansalaisena, joka kirjoittaa kirjeen seuraavilla henkilötiedoilla:
     - Nimi: {name}
     - Maa: {country}
-    {city_line}
-    {postal_line}
-    {company_line}
-    {project_line}
-    {affiliation_line}
-
-    - Kirjoita ammattimainen sähköpostiluonnos. Sen tulee olla kohtelias, ytimekäs ja enintään neljä kappaletta.
-    - Korosta henkilökohtaista suhdettasi avoimeen lähdekoodiin.
+      {city_line}{postal_line}{company_line}{project_line}{affiliation_line}
+    - Kirjoita ammattimainen sähköposti. Sen tulee olla kohtelias, ytimekäs ja enintään neljä kappaletta.
+    - Korosta henkilökohtaista suhdettasi avoimeen lähdekoodiin, missä mahdollista.
     - Pääaiheena on digitaalinen suvereniteetti. Tavoitteena on pyytää asianmukaista europarlamentaarikkoa tukemaan Euroopan suvereenin teknologian rahastoa. Toissijaisena tavoitteena on edistää avoimen lähdekoodin hankintapolitiikkaa.
-    - Viittaa seuraaviin lähteisiin: https://www.linuxfoundation.org/hubfs/Research%20Reports/WorldofOS_EUSpotlight_2025_081525.pdf tai https://eu-stf.openforumeurope.org/wp-content/uploads/2025/08/EU-STF-Feasibility-Study_final.pdf
+    - Viittaa seuraaviin oppaisiin: https://www.linuxfoundation.org/hubfs/Research%20Reports/WorldofOS_EUSpotlight_2025_081525.pdf tai https://eu-stf.openforumeurope.org/wp-content/uploads/2025/08/EU-STF-Feasibility-Study_final.pdf
     - Käytä vähintään yhtä annetuista linkeistä perustellaksesi argumenttisi.
     - Annettujen tietojen perusteella etsi sopivin europarlamentaarikko. Mieluiten kaupunkiin tai aiheeseen liittyvä ja kansalaisen maasta.
-    - Tutki europarlamentaarikkoa Wikipediassa, virallisella verkkosivustolla ja biografiassa. Etsi virallinen rooli, valiokuntajäsenyys ja julkiset lausunnot teknologiasta, kyberturvallisuudesta tai digitaalisesta suvereniteetista. Jos nämä tiedot ovat relevantteja, mainitse tietty valiokunta nimeltä ja viittaa aiempaan lausuntoon tai raporttiin osoittaaksesi, että olet tehnyt tutkimusta.
-    - Tutki europarlamentaarikon verkkosivua ja sähköpostia annetun osoitteen perusteella. Postiosoite ja sähköposti tulee sisällyttää kirjeeseen selkeästi.
+    - Tutki europarlamentaarikkoa Wikipediassa, virallisella verkkosivustolla ja virallisessa europarlamentaarikkojen listassa (https://www.europarl.europa.eu/meps/en/full-list). Tarkista heidän verkkosivunsa, sähköpostinsa ja postiosoitteensa.
+    - Selvitä heidän viralliset roolinsa, valiokuntajäsenyytensä ja aiemmat lausuntonsa teknologiasta, kyberturvallisuudesta tai digitaalisesta suvereniteetista. Jos relevanttia, mainitse valiokunta nimeltä ja siteeraa tiettyä lausuntoa tai raporttia.
+    - Kirjoita europarlamentaarikon täydellinen postiosoite ja virallinen sähköposti tervehdyksen yläpuolelle standardin liikekirjeen muodossa.
     - Tee suora, kohtelias pyyntö, että europarlamentaarikko tukisi politiikkoja ja investointeja, kuten avoimen lähdekoodin hankintoja, jotka vahvistavat digitaalista suvereniteettia.
     - Korosta, että toivot osallistuvasi FOSDEMiin Brysselissä helmikuun alussa ja haluaisit mahdollisuuden tavata henkilökohtaisesti.
     - Määrittele kaikki lyhenteet ensimmäisellä käyttökerralla. Lopeta kohteliaalla fraasilla ja kutsulla jatkokeskusteluun tai vastaukseen.
     - Pidä sävy kohtelias, ytimekäs ja henkilökohtainen.
+
+  dialog_message: "<p>Kehotteesi on kopioitu selaimeesi. Kopioi se nyt valitsemaasi LLM:ään ja katso tulokset.</p><p><strong>Muista, että olet vastuussa tuottamastasi sisällöstä. Kokeile kehotetta ja varmista, että tulos vastaa tarpeitasi.</strong></p>"
+

@@ -25,21 +25,19 @@ fr:
     Agissez en tant que citoyen écrivant une lettre avec les détails personnels suivants :
     - Nom : {name}
     - Pays : {country}
-    {city_line}
-    {postal_line}
-    {company_line}
-    {project_line}
-    {affiliation_line}
-
+      {city_line}{postal_line}{company_line}{project_line}{affiliation_line}
     - Rédigez un courriel professionnel. Il doit être poli, concis et ne pas dépasser quatre paragraphes.
-    - Mettez en avant votre lien personnel avec l'open source.
+    - Mettez en avant votre lien personnel avec l'open source, lorsque cela est possible.
     - Le sujet principal est la souveraineté numérique. L'objectif principal est de demander à un député européen de soutenir le Fonds européen pour la technologie souveraine. L'objectif secondaire est d'encourager des politiques d'achat plus proactives pour l'open source.
     - Référencez l'un des guides suivants : https://www.linuxfoundation.org/hubfs/Research%20Reports/WorldofOS_EUSpotlight_2025_081525.pdf ou https://eu-stf.openforumeurope.org/wp-content/uploads/2025/08/EU-STF-Feasibility-Study_final.pdf
     - Utilisez au moins un des liens fournis pour citer une source qui appuie votre argument.
     - Trouvez le député européen le plus approprié en fonction des informations fournies. Idéalement, il serait lié à la ville ou au sujet, et du pays du citoyen.
-    - Recherchez ce député sur Wikipédia, son site officiel et sa biographie. Trouvez son rôle officiel, ses affiliations à des commissions et toute déclaration publique sur la technologie, la cybersécurité ou la souveraineté numérique. Si ces informations sont pertinentes, mentionnez la commission spécifique par son nom et faites référence à une déclaration ou un rapport pertinent pour montrer que vous avez fait vos recherches.
-    - Recherchez le site web et l'adresse e-mail du député, en fonction de l'adresse fournie. L'adresse postale et l'e-mail doivent être clairement inclus dans la lettre formatée.
+    - Recherchez ce député sur Wikipédia, son site officiel et la liste officielle des députés européens (https://www.europarl.europa.eu/meps/en/full-list). Vérifiez son site web, son adresse e-mail et son adresse postale.
+    - Identifiez son rôle officiel, ses affiliations à des commissions et ses déclarations antérieures sur la technologie, la cybersécurité ou la souveraineté numérique. Si ces informations sont pertinentes, mentionnez la commission spécifique par son nom et faites référence à une déclaration ou un rapport pertinent.
+    - Placez l'adresse postale complète et l'adresse e-mail officielle du député au-dessus de la salutation dans le format standard d'une lettre professionnelle.
     - Faites une demande directe et respectueuse pour que le député soutienne des politiques et des investissements tels que l'achat d'open source qui renforceront la souveraineté numérique.
     - Soulignez que vous espérez assister à FOSDEM à Bruxelles début février et que vous aimeriez avoir l'occasion de rencontrer en personne.
     - Définissez tous les acronymes lors de leur première utilisation. Terminez par une formule de politesse et une invitation à poursuivre la discussion ou à répondre.
     - Gardez un ton respectueux, concis et personnel.
+
+  dialog_message: "<p>Votre message a été copié dans votre navigateur. Copiez-le maintenant dans le LLM de votre choix et voyez les résultats.</p><p><strong>N'oubliez pas que vous êtes responsable du contenu que vous générez. Expérimentez avec le message et vérifiez que le résultat répond à vos besoins.</strong></p>"

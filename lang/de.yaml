@@ -25,21 +25,19 @@ de:
     Handeln Sie als Bürger und verfassen Sie einen Brief mit folgenden persönlichen Angaben:
     - Name: {name}
     - Land: {country}
-    {city_line}
-    {postal_line}
-    {company_line}
-    {project_line}
-    {affiliation_line}
-
-    - Verfassen Sie einen professionellen E-Mail-Entwurf. Er sollte höflich, prägnant und nicht länger als vier Absätze sein.
-    - Heben Sie Ihre persönliche Verbindung zu Open Source hervor.
+      {city_line}{postal_line}{company_line}{project_line}{affiliation_line}
+    - Verfassen Sie eine professionelle E-Mail. Sie sollte höflich, prägnant und nicht länger als vier Absätze sein.
+    - Heben Sie Ihre persönliche Verbindung zu Open Source hervor, wo möglich.
     - Das Hauptthema ist digitale Souveränität. Das Hauptziel ist, einen relevanten Abgeordneten des Europäischen Parlaments um Unterstützung für den EU Sovereign Tech Fund zu bitten. Das Nebenziel ist eine proaktivere Open-Source-Beschaffungspolitik.
     - Verweisen Sie auf einen der folgenden Leitfäden: https://www.linuxfoundation.org/hubfs/Research%20Reports/WorldofOS_EUSpotlight_2025_081525.pdf oder https://eu-stf.openforumeurope.org/wp-content/uploads/2025/08/EU-STF-Feasibility-Study_final.pdf
     - Verwenden Sie mindestens einen der bereitgestellten Links, um eine Quelle zu zitieren, die Ihr Argument unterstützt.
     - Finden Sie anhand der bereitgestellten Informationen den am besten geeigneten Abgeordneten. Idealerweise ist er mit der Stadt oder dem Thema verbunden und stammt aus dem Land des Bürgers.
-    - Recherchieren Sie diesen Abgeordneten auf Wikipedia, seiner offiziellen Webseite und in seiner Biografie. Finden Sie die offizielle Rolle, Ausschussmitgliedschaften und öffentliche Stellungnahmen zu Technologie, Cybersicherheit oder digitaler Souveränität. Wenn diese Informationen relevant sind, nennen Sie den spezifischen Ausschuss und verweisen Sie auf eine relevante frühere Stellungnahme oder einen Bericht, um zu zeigen, dass Sie recherchiert haben.
-    - Recherchieren Sie die Webseite und E-Mail-Adresse des Abgeordneten anhand der angegebenen Adresse. Die Postadresse und E-Mail sollten klar im formatierten Brief enthalten sein.
+    - Recherchieren Sie diesen Abgeordneten auf Wikipedia, seiner offiziellen Webseite und der offiziellen Liste der Abgeordneten (https://www.europarl.europa.eu/meps/en/full-list). Überprüfen Sie seine Webseite, E-Mail und Postadresse.
+    - Identifizieren Sie seine offiziellen Rollen, Ausschussmitgliedschaften und frühere Stellungnahmen zu Technologie, Cybersicherheit oder digitaler Souveränität. Falls relevant, nennen Sie den Ausschuss beim Namen und zitieren Sie eine konkrete Stellungnahme oder einen Bericht.
+    - Platzieren Sie die vollständige Postadresse und die offizielle E-Mail des Abgeordneten über der Anrede im Standard-Geschäftsformat.
     - Bitten Sie den Abgeordneten direkt und respektvoll, Politiken und Investitionen wie die Beschaffung von Open Source zu unterstützen, die die digitale Souveränität stärken.
     - Heben Sie hervor, dass Sie hoffen, Anfang Februar am FOSDEM in Brüssel teilzunehmen und gerne persönlich treffen würden.
     - Definieren Sie alle Abkürzungen bei der ersten Verwendung. Schließen Sie mit einer höflichen Grußformel und einer Einladung zu weiterem Austausch oder einer Antwort.
     - Halten Sie den Ton respektvoll, prägnant und persönlich.
+
+  dialog_message: "<p>Ihr Prompt wurde in Ihren Browser kopiert. Kopieren Sie ihn jetzt in das LLM Ihrer Wahl und sehen Sie sich die Ergebnisse an.</p><p><strong>Denken Sie daran, dass Sie für den generierten Inhalt verantwortlich sind. Experimentieren Sie mit dem Prompt und stellen Sie sicher, dass das Ergebnis Ihren Anforderungen entspricht.</strong></p>"

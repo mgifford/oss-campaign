@@ -25,21 +25,19 @@ sl:
     Delujte kot državljan, ki piše pismo z naslednjimi osebnimi podatki:
     - Ime: {name}
     - Država: {country}
-    {city_line}
-    {postal_line}
-    {company_line}
-    {project_line}
-    {affiliation_line}
-
+      {city_line}{postal_line}{company_line}{project_line}{affiliation_line}
     - Napišite profesionalni osnutek e-pošte. Mora biti vljuden, jedrnat in ne sme presegati štirih odstavkov.
-    - Poudarite svoj osebni odnos do odprte kode.
-    - Glavna tema je digitalna suverenost. Glavni cilj je prositi ustreznega poslanca Evropskega parlamenta, da podpre Evropski sklad za suvereno tehnologijo. Sekundarni cilj je spodbujanje bolj progresivne politike javnih naročil za odprto kodo.
-    - Sklicujte se na naslednje vire: https://www.linuxfoundation.org/hubfs/Research%20Reports/WorldofOS_EUSpotlight_2025_081525.pdf ali https://eu-stf.openforumeurope.org/wp-content/uploads/2025/08/EU-STF-Feasibility-Study_final.pdf
+    - Kjer je mogoče, poudarite svoj osebni odnos do odprte kode.
+    - Glavna tema je digitalna suverenost. Glavni cilj je prositi ustreznega poslanca Evropskega parlamenta, da podpre Evropski sklad za suvereno tehnologijo. Sekundarni cilj je spodbujanje bolj aktivne politike javnih naročil za odprto kodo.
+    - Sklicujte se na te smernice: https://www.linuxfoundation.org/hubfs/Research%20Reports/WorldofOS_EUSpotlight_2025_081525.pdf ali https://eu-stf.openforumeurope.org/wp-content/uploads/2025/08/EU-STF-Feasibility-Study_final.pdf
     - Uporabite vsaj eno od navedenih povezav kot vir za podporo svojemu argumentu.
     - Na podlagi posredovanih informacij poiščite najbolj primernega poslanca Evropskega parlamenta. Idealno povezan z mestom ali temo in iz države državljana.
-    - Raziščite tega poslanca Evropskega parlamenta na Wikipediji, uradni spletni strani in v biografiji. Poiščite uradno vlogo, članstvo v odborih in javne izjave o tehnologiji, kibernetski varnosti ali digitalni suverenosti. Če so te informacije pomembne, navedite določen odbor po imenu in se sklicujte na prejšnjo izjavo ali poročilo, da pokažete, da ste opravili raziskavo.
-    - Raziščite spletno stran in e-pošto poslanca Evropskega parlamenta na podlagi posredovanega naslova. Poštni naslov in e-pošta morata biti jasno vključena v pismo.
-    - Podajte neposredno, vljudno prošnjo, da poslanec Evropskega parlamenta podpre politike in naložbe, kot je javno naročanje odprte kode, ki bo okrepilo digitalno suverenost.
+    - Raziščite tega poslanca Evropskega parlamenta na Wikipediji, uradni spletni strani in uradnem seznamu poslancev (https://www.europarl.europa.eu/meps/en/full-list). Preverite njihovo spletno stran, e-pošto in poštni naslov.
+    - Poiščite njihove uradne vloge, članstvo v odborih in prejšnje izjave o tehnologiji, kibernetski varnosti ali digitalni suverenosti. Če je pomembno, omenite odbor po imenu in citirajte specifično izjavo ali poročilo.
+    - Vstavite polni poštni naslov in uradni e-poštni naslov poslanca nad pozdrav v standardni poslovni obliki.
+    - Podajte neposredno, vljudno prošnjo za podporo politikam in naložbam, kot je javno naročanje odprte kode, ki bo okrepilo digitalno suverenost.
     - Poudarite, da upate, da boste prisotni na FOSDEM v Bruslju v začetku februarja in bi se radi osebno srečali.
     - Ob prvi uporabi razložite vse okrajšave. Zaključite z vljudno frazo in povabilom k nadaljnji razpravi ali odgovoru.
     - Ohranjajte vljuden, jedrnat in oseben ton.
+
+  dialog_message: "<p>Vaš poziv je bil kopiran v vaš brskalnik. Zdaj ga kopirajte v izbrani LLM in si oglejte rezultate.</p><p><strong>Ne pozabite, da ste odgovorni za ustvarjeno vsebino. Eksperimentirajte s pozivom in preverite, ali rezultat ustreza vašim potrebam.</strong></p>"

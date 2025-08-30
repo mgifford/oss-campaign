@@ -25,21 +25,19 @@ da:
     Agér som en borger, der skriver et brev med følgende personlige oplysninger:
     - Navn: {name}
     - Land: {country}
-    {city_line}
-    {postal_line}
-    {company_line}
-    {project_line}
-    {affiliation_line}
-
-    - Skriv et professionelt udkast til en e-mail. Det skal være høfligt, kortfattet og ikke overstige fire afsnit.
-    - Fremhæv din personlige relation til open source.
-    - Hovedemnet er digital suverænitet. Hovedmålet er at bede en relevant MEP om at støtte Den Europæiske Fond for Suveræn Teknologi. Sekundært mål er at fremme mere progressiv indkøbspolitik for open source.
-    - Henvis til følgende ressourcer: https://www.linuxfoundation.org/hubfs/Research%20Reports/WorldofOS_EUSpotlight_2025_081525.pdf eller https://eu-stf.openforumeurope.org/wp-content/uploads/2025/08/EU-STF-Feasibility-Study_final.pdf
+      {city_line}{postal_line}{company_line}{project_line}{affiliation_line}
+    - Skriv en professionel e-mail. Den skal være høflig, kortfattet og ikke overstige fire afsnit.
+    - Fremhæv din personlige relation til open source, hvor det er muligt.
+    - Hovedemnet er digital suverænitet. Hovedmålet er at bede en relevant MEP om at støtte Den Europæiske Fond for Suveræn Teknologi. Sekundært mål er at fremme mere proaktiv indkøbspolitik for open source.
+    - Henvis til følgende vejledninger: https://www.linuxfoundation.org/hubfs/Research%20Reports/WorldofOS_EUSpotlight_2025_081525.pdf eller https://eu-stf.openforumeurope.org/wp-content/uploads/2025/08/EU-STF-Feasibility-Study_final.pdf
     - Brug mindst ét af de angivne links som kilde til at understøtte dit argument.
     - Baseret på de givne oplysninger, find den mest relevante MEP. Helst relateret til byen eller emnet og fra borgerens land.
-    - Undersøg denne MEP på Wikipedia, den officielle hjemmeside og biografien. Find den officielle rolle, komitémedlemskab og eventuelle offentlige udtalelser om teknologi, cybersikkerhed eller digital suverænitet. Hvis disse oplysninger er relevante, nævn den specifikke komité ved navn og henvis til en tidligere udtalelse eller rapport for at vise, at du har lavet research.
-    - Undersøg MEP'ens hjemmeside og e-mail baseret på den angivne adresse. Postadresse og e-mail skal tydeligt fremgå af brevet.
+    - Undersøg denne MEP på Wikipedia, den officielle side og den officielle liste over MEP'er (https://www.europarl.europa.eu/meps/en/full-list). Bekræft deres hjemmeside, e-mail og postadresse.
+    - Identificér deres officielle roller, komitémedlemskaber og tidligere udtalelser om teknologi, cybersikkerhed eller digital suverænitet. Hvis relevant, nævn komitéen ved navn og citér en specifik udtalelse eller rapport.
+    - Placer MEP'ens fulde postadresse og officielle e-mail over hilsenen i standard forretningsformat.
     - Kom med en direkte, høflig anmodning om, at MEP'en støtter politikker og investeringer som open source-indkøb, der styrker digital suverænitet.
     - Fremhæv, at du håber at deltage i FOSDEM i Bruxelles i begyndelsen af februar og gerne vil have mulighed for at mødes personligt.
     - Definér alle forkortelser ved første brug. Afslut med en høflig sætning og invitation til yderligere dialog eller svar.
     - Hold tonen høflig, kortfattet og personlig.
+
+  dialog_message: "<p>Din prompt er blevet kopieret til din browser. Kopiér den nu til det LLM, du ønsker, og se resultaterne.</p><p><strong>Husk, at du er ansvarlig for det indhold, du genererer. Eksperimentér med prompten og sørg for, at resultatet opfylder dine behov.</strong></p>"
