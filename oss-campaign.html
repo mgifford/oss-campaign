@@ -141,35 +141,30 @@
 		<div class="desc"><!-- Main body content loaded dynamically --></div>
 		<!-- Add a language switcher dropdown -->
 		<select id="languageSwitcher" aria-label="Select language" style="margin-bottom:16px;">
-				   <option value="lt">Lietuvių</option>
-				   <option value="mt">Malti</option>
-				   <option value="sk">Slovenčina</option>
-				   <option value="sl">Slovenščina</option>
-				   <option value="sv">Svenska</option>
-				   <option value="bg">Български</option>
-				   <option value="cs">Čeština</option>
-				   <option value="da">Dansk</option>
-				   <option value="de">Deutsch</option>
-				   <option value="el">Ελληνικά</option>
-				   <option value="en">English</option>
-				   <option value="es">Español</option>
-				   <option value="et">Eesti</option>
-				   <option value="fi">Suomi</option>
-				   <option value="fr">Français</option>
-				   <option value="ga">Gaeilge</option>
-				   <option value="hr">Hrvatski</option>
-				   <option value="hu">Magyar</option>
-				   <option value="it">Italiano</option>
-				   <option value="lt">Lietuvių</option>
-				   <option value="lv">Latviešu</option>
-				   <option value="mt">Malti</option>
-				   <option value="nl">Nederlands</option>
-				   <option value="pl">Polski</option>
-				   <option value="pt">Português</option>
-				   <option value="ro">Română</option>
-				   <option value="sk">Slovenčina</option>
-				   <option value="sl">Slovenščina</option>
-				   <option value="sv">Svenska</option>
+			<option value="bg">Български (Bulgarian)</option>
+			<option value="cs">Čeština (Czech)</option>
+			<option value="da">Dansk (Danish)</option>
+			<option value="de">Deutsch (German)</option>
+			<option value="el">Ελληνικά (Greek)</option>
+			<option value="en">English (English)</option>
+			<option value="es">Español (Spanish)</option>
+			<option value="et">Eesti (Estonian)</option>
+			<option value="fi">Suomi (Finnish)</option>
+			<option value="fr">Français (French)</option>
+			<option value="ga">Gaeilge (Irish)</option>
+			<option value="hr">Hrvatski (Croatian)</option>
+			<option value="hu">Magyar (Hungarian)</option>
+			<option value="it">Italiano (Italian)</option>
+			<option value="lt">Lietuvių (Lithuanian)</option>
+			<option value="lv">Latviešu (Latvian)</option>
+			<option value="mt">Malti (Maltese)</option>
+			<option value="nl">Nederlands (Dutch)</option>
+			<option value="pl">Polski (Polish)</option>
+			<option value="pt">Português (Portuguese)</option>
+			<option value="ro">Română (Romanian)</option>
+			<option value="sk">Slovenčina (Slovak)</option>
+			<option value="sl">Slovenščina (Slovenian)</option>
+			<option value="sv">Svenska (Swedish)</option>
 		</select>
 		<form id="campaignForm">
 			<label for="name">Name <span class="required">*</span></label>
@@ -283,7 +278,7 @@
 		// Update UI with translations
 		function updateUI(t) {
 			document.querySelector('h1').textContent = t.header;
-			document.querySelector('.desc p').textContent = t.desc;
+			document.querySelector('.desc').innerHTML = t.desc;
 			document.querySelector('label[for="name"]').innerHTML = t.name_label + ' <span class="required">' + t.required + '</span>';
 			document.querySelector('label[for="country"]').innerHTML = t.country_label + ' <span class="required">' + t.required + '</span>';
 			document.querySelector('label[for="city"]').textContent = t.city_label;
