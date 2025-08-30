@@ -14,7 +14,14 @@ en:
   dark_mode: "Dark Mode"
   light_mode: "Light Mode"
   header: "Europe Needs to Invest in Digital Sovereignty Now"
-  desc: "The goal of this campaign is to encourage open source advocates to send personal emails to their European Parliament representatives. Pre-filling this form collects no user data, but allows you to easily edit and copy the message into your favourite LLM. From here, you can send it in your own personal email (or your work one if you prefer). We want to make this as personal and relatable as possible, so will not be using a canned message like older campaigns have been. Take it seriously, and plan to follow-up at FOSDEM when this campaign will conclude."
+  desc: "<p>Do you believe you should have more control over what happens to your data? What about the governments whose services you rely on every day? This campaign is your chance to act together and make sure the European Parliament hears the open source community loud and clear.</p>
+            <h2>Here’s how to take action in three steps:</h2>
+            <ol>
+                <li>Open the form. It’s pre-filled to get you started, but it collects no personal data.</li>
+                <li>Make it personal. Copy the message into your favourite LLM or editor, tweak it to reflect your own experience, and send it from your personal (or work) email. Authentic messages matter more than templates.</li>
+                <li>Follow up. This campaign will conclude at FOSDEM, where we’ll connect and make sure policymakers see the strength of our community.</li>
+            </ol>
+        <p>We are keeping this campaign different from past efforts: no canned mass emails, no one-size-fits-all text. This is about real people speaking directly to their representatives about why open source matters.</p>"
   affiliations:
     - "-- Select or auto-filled --"
     - "Drupal Association"
