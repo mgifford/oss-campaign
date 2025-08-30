@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Europe Needs to Invest in Digital Sovereignty Now</title>
+	<style>
+		:root {
+			--color-bg-light: #f7f7f7;
+			--color-bg-dark: #181a1b;
+			--color-container-light: #fff;
+			--color-container-dark: #23272b;
+			--color-text-light: #222;
+			--color-text-dark: #f7f7f7;
+			--color-accent: #2980b9;
+			--color-accent-dark: #4aa3ff;
+			--color-error: #c0392b;
+			--color-border-light: #ccc;
+			--color-border-dark: #444;
+		}
+		body {
+			font-family: Arial, sans-serif;
+			margin: 0; padding: 0;
+			background: var(--color-bg-light);
+			color: var(--color-text-light);
+			transition: background 0.3s, color 0.3s;
+		}
+		body.dark-mode {
+			background: var(--color-bg-dark);
+			color: var(--color-text-dark);
+		}
+		.container {
+			max-width: 600px;
+			margin: 40px auto;
+			background: var(--color-container-light);
+			color: var(--color-text-light);
+			padding: 32px;
+			border-radius: 8px;
+			box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+			transition: background 0.3s, color 0.3s;
+		}
+		body.dark-mode .container {
+			background: var(--color-container-dark);
+			color: var(--color-text-dark);
+		}
+		h1, .desc, label, .note {
+			color: inherit;
+		}
+		form { margin-bottom: 24px; }
+		label { display: block; margin-bottom: 6px; font-weight: 500; }
+		input, select, textarea {
+			width: 100%;
+			padding: 8px;
+			margin-bottom: 16px;
+			border: 1.5px solid var(--color-border-light);
+			border-radius: 4px;
+			background: var(--color-container-light);
+			color: var(--color-text-light);
+			font-size: 1rem;
+			transition: background 0.3s, color 0.3s, border-color 0.3s;
+		}
+		input:required, select:required {
+			border-color: var(--color-accent);
+		}
+		body.dark-mode input, body.dark-mode select, body.dark-mode textarea {
+			background: var(--color-container-dark);
+			color: var(--color-text-dark);
+			border-color: var(--color-border-dark);
+		}
+		button {
+			background: var(--color-accent);
+			color: #fff;
+			border: none;
+			padding: 10px 20px;
+			border-radius: 4px;
+			cursor: pointer;
+			font-size: 1rem;
+			transition: background 0.3s;
+		}
+		button:hover, button:focus {
+			background: var(--color-accent-dark);
+			outline: 2px solid var(--color-accent-dark);
+		}
+		body.dark-mode button {
+			background: var(--color-accent-dark);
+			color: #181a1b;
+		}
+		textarea {
+			height: 160px;
+			margin-top: 12px;
+			padding: 10px;
+			border-radius: 4px;
+			border: 1.5px solid var(--color-border-light);
+			font-size: 1rem;
+			background: var(--color-container-light);
+			color: var(--color-text-light);
+		}
+		body.dark-mode textarea {
+			background: var(--color-container-dark);
+			color: var(--color-text-dark);
+			border-color: var(--color-border-dark);
+		}
+		.note { font-size: 0.95em; color: #888; margin-top: 8px; }
+		body.dark-mode .note { color: #bbb; }
+		.required { color: var(--color-error); }
+		#modeToggle {
+			margin-bottom: 16px;
+			background: none;
+			color: inherit;
+			border: 2px solid var(--color-accent);
+			border-radius: 4px;
+			padding: 8px 16px;
+			font-size: 1rem;
+			cursor: pointer;
+			transition: background 0.3s, color 0.3s, border-color 0.3s;
+		}
+		#modeToggle:focus {
+			outline: 2px solid var(--color-accent-dark);
+		}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<button id="modeToggle" aria-label="Toggle dark/light mode" type="button" style="background:none;border:none;font-size:1.5rem;float:right;margin-bottom:8px;" title="Toggle dark/light mode">
+			<span id="modeIcon" aria-hidden="true">🌙</span>
+		</button>
+		<div style="display:flex;align-items:center;gap:16px;margin-bottom:8px;">
+			<!-- OSI logo SVG -->
+			<svg width="48" height="48" viewBox="0 0 48 48" aria-label="Open Source Initiative Logo" role="img" style="flex-shrink:0;">
+				<title>Open Source Initiative Logo</title>
+				<circle cx="24" cy="24" r="22" fill="#3da639" stroke="#222" stroke-width="2"/>
+				<circle cx="24" cy="24" r="8" fill="#fff"/>
+			</svg>
+			<h1 style="margin:0;">Europe Needs to Invest in Digital Sovereignty Now</h1>
+		</div>
+		<div class="desc">
+			<p>
+				The goal of this campaign is to encourage open source advocates to send personal emails to their European Parliament representatives. Pre-filling this form collects no user data, but allows you to easily edit and copy the message into your favourite LLM. From here, you can send it in your own personal email (or your work one if you prefer). We want to make this as personal and relatable as possible, so will not be using a canned message like older campaigns have been. Take it seriously, and plan to follow-up at FOSDEM when this campaign will conclude.
+			</p>
+		</div>
+		<!-- Add a language switcher dropdown -->
+		<select id="languageSwitcher" aria-label="Select language" style="margin-bottom:16px;">
+				   <option value="bg">Български</option>
+				   <option value="cs">Čeština</option>
+				   <option value="da">Dansk</option>
+				   <option value="de">Deutsch</option>
+				   <option value="el">Ελληνικά</option>
+				   <option value="en">English</option>
+				   <option value="es">Español</option>
+				   <option value="et">Eesti</option>
+				   <option value="fi">Suomi</option>
+				   <option value="fr">Français</option>
+				   <option value="ga">Gaeilge</option>
+				   <option value="hr">Hrvatski</option>
+				   <option value="hu">Magyar</option>
+				   <option value="it">Italiano</option>
+				   <option value="lt">Lietuvių</option>
+				   <option value="lv">Latviešu</option>
+				   <option value="mt">Malti</option>
+				   <option value="nl">Nederlands</option>
+				   <option value="pl">Polski</option>
+				   <option value="pt">Português</option>
+				   <option value="ro">Română</option>
+				   <option value="sk">Slovenčina</option>
+				   <option value="sl">Slovenščina</option>
+				   <option value="sv">Svenska</option>
+		</select>
+		<form id="campaignForm">
+			<label for="name">Name <span class="required">*</span></label>
+			<input type="text" id="name" name="name" required>
+
+			<label for="country">Country <span class="required">*</span></label>
+			<input type="text" id="country" name="country" required>
+
+			<label for="city">City</label>
+			<input type="text" id="city" name="city">
+
+			<label for="postal">Postal Code</label>
+			<input type="text" id="postal" name="postal">
+
+			<label for="company">Company Worked For</label>
+			<input type="text" id="company" name="company">
+
+			<label for="project">Open Source Project Worked For</label>
+			<input type="text" id="project" name="project">
+
+			<label for="affiliation">Affiliation</label>
+			<select id="affiliation" name="affiliation">
+				<!-- Options will be set by JS -->
+			</select>
+
+			<button id="generateBtn" type="submit">Generate Message</button>
+		</form>
+		<label for="output">Copy this message into your LLM:</label>
+		<textarea id="output" readonly></textarea>
+		<button id="copyBtn" type="button" style="margin-top:8px;">Copy Text</button>
+		<div class="note">No data is stored or sent. Edit and copy as needed.</div>
+	</div>
+	<script src="https://cdn.jsdelivr.net/npm/js-yaml@4.1.0/dist/js-yaml.min.js"></script>
+	<script>
+		// Set initial dark/light mode based on local time
+		(function() {
+			const hour = new Date().getHours();
+			// Night: 19:00-7:00 (7pm-7am) is dark mode, else light mode
+			if (hour >= 19 || hour < 7) {
+				document.body.classList.add('dark-mode');
+				const modeIcon = document.getElementById('modeIcon');
+				if (modeIcon) modeIcon.textContent = '☀️';
+				const modeToggle = document.getElementById('modeToggle');
+				if (modeToggle) modeToggle.title = 'Switch to light mode';
+			}
+		})();
+		// Copy to clipboard functionality
+		document.addEventListener('DOMContentLoaded', function() {
+			document.getElementById('copyBtn').addEventListener('click', function() {
+				const output = document.getElementById('output');
+				output.select();
+				output.setSelectionRange(0, 99999); // For mobile devices
+				try {
+					document.execCommand('copy');
+					this.textContent = 'Copied!';
+					setTimeout(() => { this.textContent = 'Copy Text'; }, 1500);
+				} catch (err) {
+					this.textContent = 'Failed to copy';
+					setTimeout(() => { this.textContent = 'Copy Text'; }, 1500);
+				}
+			});
+		});
+		// Utility: get query param
+		function getQueryParam(param) {
+			const urlParams = new URLSearchParams(window.location.search);
+			return urlParams.get(param);
+		}
+
+		// Language detection
+		let currentLang = getQueryParam('lang') || 'en';
+		const languageSwitcher = document.getElementById('languageSwitcher');
+		languageSwitcher.value = currentLang;
+		languageSwitcher.addEventListener('change', function() {
+			// Save form data to localStorage
+			const formData = {
+				name: document.getElementById('name').value,
+				country: document.getElementById('country').value,
+				city: document.getElementById('city').value,
+				postal: document.getElementById('postal').value,
+				company: document.getElementById('company').value,
+				project: document.getElementById('project').value,
+				affiliation: document.getElementById('affiliation').value
+			};
+			localStorage.setItem('campaignFormData', JSON.stringify(formData));
+			window.location.search = '?lang=' + this.value;
+		});
+
+		// Restore form data after reload
+		window.addEventListener('DOMContentLoaded', function() {
+			const saved = localStorage.getItem('campaignFormData');
+			if (saved) {
+				const data = JSON.parse(saved);
+				if (data.name) document.getElementById('name').value = data.name;
+				if (data.country) document.getElementById('country').value = data.country;
+				if (data.city) document.getElementById('city').value = data.city;
+				if (data.postal) document.getElementById('postal').value = data.postal;
+				if (data.company) document.getElementById('company').value = data.company;
+				if (data.project) document.getElementById('project').value = data.project;
+				if (data.affiliation) document.getElementById('affiliation').value = data.affiliation;
+				localStorage.removeItem('campaignFormData');
+			}
+		});
+
+		// Load YAML translation file
+		async function loadTranslations(lang) {
+			const response = await fetch('lang/' + lang + '.yaml');
+			const yamlText = await response.text();
+			return jsyaml.load(yamlText)[lang];
+		}
+
+		// Update UI with translations
+		function updateUI(t) {
+			document.querySelector('h1').textContent = t.header;
+			document.querySelector('.desc p').textContent = t.desc;
+			document.querySelector('label[for="name"]').innerHTML = t.name_label + ' <span class="required">' + t.required + '</span>';
+			document.querySelector('label[for="country"]').innerHTML = t.country_label + ' <span class="required">' + t.required + '</span>';
+			document.querySelector('label[for="city"]').textContent = t.city_label;
+			document.querySelector('label[for="postal"]').textContent = t.postal_label;
+			document.querySelector('label[for="company"]').textContent = t.company_label;
+			document.querySelector('label[for="project"]').textContent = t.project_label;
+			document.querySelector('label[for="affiliation"]').textContent = t.affiliation_label;
+			document.getElementById('generateBtn').textContent = t.generate_button;
+			document.getElementById('copyBtn').textContent = t.copy_button;
+			document.querySelector('label[for="output"]').textContent = t.instructions_label;
+			document.querySelector('.note').textContent = t.note;
+			// Update affiliation options
+			const affSelect = document.getElementById('affiliation');
+			affSelect.innerHTML = '';
+			t.affiliations.forEach(function(opt) {
+				const o = document.createElement('option');
+				o.textContent = opt;
+				affSelect.appendChild(o);
+			});
+		}
+
+		let translations = null;
+		// On page load, fetch translations and update UI
+		loadTranslations(currentLang).then(function(t) {
+			translations = t;
+			updateUI(t);
+		});
+
+		// Update message generation to use translations
+		// Form submission handler
+		document.getElementById('campaignForm').addEventListener('submit', function(e) {
+			e.preventDefault();
+			const name = document.getElementById('name').value.trim();
+			const country = document.getElementById('country').value.trim();
+			const city = document.getElementById('city').value.trim();
+			const postal = document.getElementById('postal').value.trim();
+			const company = document.getElementById('company').value.trim();
+			const project = document.getElementById('project').value.trim();
+			const affiliation = document.getElementById('affiliation').value;
+
+			if (!translations) {
+				document.getElementById('output').value = 'Translation file not loaded.';
+				return;
+			}
+
+			let message = translations.instructions_block
+				.replace('{name}', name)
+				.replace('{country}', country)
+				.replace('{city_line}', city ? `- ${translations.city_label}: ${city}` : '')
+				.replace('{postal_line}', postal ? `- ${translations.postal_label}: ${postal}` : '')
+				.replace('{company_line}', company ? `- ${translations.company_label}: ${company}` : '')
+				.replace('{project_line}', project ? `- ${translations.project_label}: ${project}` : '')
+				.replace('{affiliation_line}', affiliation ? `- ${translations.affiliation_label}: ${affiliation}` : '');
+
+			document.getElementById('output').value = message;
+		});
+
+		// Dark/Light mode toggle with sun/moon icon
+		const modeToggle = document.getElementById('modeToggle');
+		const modeIcon = document.getElementById('modeIcon');
+		modeToggle.addEventListener('click', function() {
+			document.body.classList.toggle('dark-mode');
+			if(document.body.classList.contains('dark-mode')) {
+				modeIcon.textContent = '☀️';
+				modeToggle.title = 'Switch to light mode';
+			} else {
+				modeIcon.textContent = '🌙';
+				modeToggle.title = 'Switch to dark mode';
+			}
+		});
+	</script>
+</body>
+</html>
