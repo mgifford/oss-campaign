@@ -1,6 +1,6 @@
 # OSS Campaign Form
 
-A multilingual, accessible web application for generating personalized campaign messages to support open source and digital sovereignty in the EU. See in action oss-campaign.html
+A multilingual, accessible web application for generating personalized campaign messages to support open source and digital sovereignty in the EU. See in action in the [OSS Campaign](http://mgifford.github.io/oss-campaign/oss-campaign.html). 
 
 ## Features
 - **Single-page HTML app** for easy deployment and use
