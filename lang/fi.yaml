@@ -1,0 +1,45 @@
+fi:
+  name_label: "Nimi"
+  country_label: "Maa"
+  city_label: "Kaupunki"
+  postal_label: "Postinumero"
+  company_label: "Yritys"
+  project_label: "Avoimen lähdekoodin projekti"
+  affiliation_label: "Yhteys"
+  generate_button: "Luo viesti"
+  copy_button: "Kopioi teksti"
+  required: "*"
+  instructions_label: "Kopioi tämä viesti LLM:ään:"
+  note: "Tietoja ei tallenneta tai lähetetä. Muokkaa ja kopioi tarpeen mukaan."
+  dark_mode: "Tumma tila"
+  light_mode: "Vaalea tila"
+  header: "Euroopan on investoitava digitaaliseen suvereniteettiin nyt"
+  desc: "Tämän kampanjan tarkoituksena on kannustaa avoimen lähdekoodin puolestapuhujia lähettämään henkilökohtaisia sähköposteja Euroopan parlamentin edustajilleen. Tämän lomakkeen täyttäminen ei kerää käyttäjätietoja, mutta mahdollistaa viestin helpon muokkaamisen ja kopioimisen suosikkisi LLM:ään. Täältä voit lähettää sen henkilökohtaisen sähköpostisi kautta (tai työpostin, jos haluat). Haluamme, että se on mahdollisimman henkilökohtainen ja relevantti, joten emme käytä standardoitua viestiä kuten aiemmissa kampanjoissa. Ota tämä vakavasti ja suunnittele jatkotoimia FOSDEMissa kampanjan päätyttyä."
+  affiliations:
+    - "-- Valitse tai täytä automaattisesti --"
+    - "Drupal Association"
+    - "Linux Foundation"
+    - "Eclipse Foundation"
+    - "Muu"
+  instructions_block: |
+    Toimi kansalaisena, joka kirjoittaa kirjeen seuraavilla henkilötiedoilla:
+    - Nimi: {name}
+    - Maa: {country}
+    {city_line}
+    {postal_line}
+    {company_line}
+    {project_line}
+    {affiliation_line}
+
+    - Kirjoita ammattimainen sähköpostiluonnos. Sen tulee olla kohtelias, ytimekäs ja enintään neljä kappaletta.
+    - Korosta henkilökohtaista suhdettasi avoimeen lähdekoodiin.
+    - Pääaiheena on digitaalinen suvereniteetti. Tavoitteena on pyytää asianmukaista europarlamentaarikkoa tukemaan Euroopan suvereenin teknologian rahastoa. Toissijaisena tavoitteena on edistää avoimen lähdekoodin hankintapolitiikkaa.
+    - Viittaa seuraaviin lähteisiin: https://www.linuxfoundation.org/hubfs/Research%20Reports/WorldofOS_EUSpotlight_2025_081525.pdf tai https://eu-stf.openforumeurope.org/wp-content/uploads/2025/08/EU-STF-Feasibility-Study_final.pdf
+    - Käytä vähintään yhtä annetuista linkeistä perustellaksesi argumenttisi.
+    - Annettujen tietojen perusteella etsi sopivin europarlamentaarikko. Mieluiten kaupunkiin tai aiheeseen liittyvä ja kansalaisen maasta.
+    - Tutki europarlamentaarikkoa Wikipediassa, virallisella verkkosivustolla ja biografiassa. Etsi virallinen rooli, valiokuntajäsenyys ja julkiset lausunnot teknologiasta, kyberturvallisuudesta tai digitaalisesta suvereniteetista. Jos nämä tiedot ovat relevantteja, mainitse tietty valiokunta nimeltä ja viittaa aiempaan lausuntoon tai raporttiin osoittaaksesi, että olet tehnyt tutkimusta.
+    - Tutki europarlamentaarikon verkkosivua ja sähköpostia annetun osoitteen perusteella. Postiosoite ja sähköposti tulee sisällyttää kirjeeseen selkeästi.
+    - Tee suora, kohtelias pyyntö, että europarlamentaarikko tukisi politiikkoja ja investointeja, kuten avoimen lähdekoodin hankintoja, jotka vahvistavat digitaalista suvereniteettia.
+    - Korosta, että toivot osallistuvasi FOSDEMiin Brysselissä helmikuun alussa ja haluaisit mahdollisuuden tavata henkilökohtaisesti.
+    - Määrittele kaikki lyhenteet ensimmäisellä käyttökerralla. Lopeta kohteliaalla fraasilla ja kutsulla jatkokeskusteluun tai vastaukseen.
+    - Pidä sävy kohtelias, ytimekäs ja henkilökohtainen.

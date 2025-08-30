@@ -1,0 +1,45 @@
+hu:
+  name_label: "Név"
+  country_label: "Ország"
+  city_label: "Város"
+  postal_label: "Irányítószám"
+  company_label: "Cég"
+  project_label: "Open Source projekt"
+  affiliation_label: "Tagság"
+  generate_button: "Üzenet generálása"
+  copy_button: "Szöveg másolása"
+  required: "*"
+  instructions_label: "Másolja ezt az üzenetet a LLM-be:"
+  note: "Nem tárolunk vagy küldünk adatokat. Szükség szerint szerkessze és másolja."
+  dark_mode: "Sötét mód"
+  light_mode: "Világos mód"
+  header: "Európának most kell befektetnie a digitális szuverenitásba"
+  desc: "A kampány célja, hogy ösztönözze az open source támogatók személyes e-mailek küldését az Európai Parlament képviselőinek. A form kitöltése nem gyűjt felhasználói adatokat, de lehetővé teszi, hogy könnyen szerkessze és másolja az üzenetet a kedvenc LLM-be. Innen elküldheti saját e-mailjéből (vagy munkahelyi e-mailből, ha úgy kívánja). Szeretnénk, ha ez a lehető legszemélyesebb és legrelevánsabb lenne, ezért nem használunk sablonüzenetet, mint korábbi kampányokban. Vegye komolyan, és tervezzen utókövetést a FOSDEM-en, amikor a kampány lezárul."
+  affiliations:
+    - "-- Válasszon vagy automatikusan kitöltve --"
+    - "Drupal Egyesület"
+    - "Linux Alapítvány"
+    - "Eclipse Alapítvány"
+    - "Egyéb"
+  instructions_block: |
+    Cselekedjen állampolgárként, aki levelet ír a következő személyes adatokkal:
+    - Név: {name}
+    - Ország: {country}
+    {city_line}
+    {postal_line}
+    {company_line}
+    {project_line}
+    {affiliation_line}
+
+    - Írjon egy professzionális e-mail vázlatot. Legyen udvarias, tömör, és ne legyen hosszabb négy bekezdésnél.
+    - Emelje ki személyes kapcsolatát az open source-hoz.
+    - A fő téma a digitális szuverenitás. A fő cél, hogy egy releváns EP-képviselőt kérjen az EU Sovereign Tech Fund támogatására. Másodlagos cél a proaktívabb open source beszerzési politika előmozdítása.
+    - Hivatkozzon az alábbi útmutatók egyikére: https://www.linuxfoundation.org/hubfs/Research%20Reports/WorldofOS_EUSpotlight_2025_081525.pdf vagy https://eu-stf.openforumeurope.org/wp-content/uploads/2025/08/EU-STF-Feasibility-Study_final.pdf
+    - Használjon legalább egy megadott linket, hogy olyan forrást idézzen, amely támogatja az érvelését.
+    - Az adott információk alapján találja meg a legmegfelelőbb EP-képviselőt. Ideális esetben legyen kapcsolata a városhoz vagy a témához, és az állampolgár országából származzon.
+    - Kutassa fel az EP-képviselőt a Wikipédián, hivatalos weboldalán és életrajzában. Keresse meg a hivatalos szerepet, bizottsági tagságokat és minden nyilvános nyilatkozatot technológiáról, kiberbiztonságról vagy digitális szuverenitásról. Ha ezek az információk relevánsak, nevezze meg a konkrét bizottságot, és hivatkozzon egy releváns korábbi nyilatkozatra vagy jelentésre, hogy bizonyítsa a kutatást.
+    - Kutassa fel az EP-képviselő weboldalát és e-mail címét a megadott cím alapján. A postai címnek és e-mailnek egyértelműen szerepelnie kell a formázott levélben.
+    - Tegyen közvetlen, udvarias kérést, hogy az EP-képviselő támogassa az olyan politikákat és beruházásokat, mint az open source beszerzés, amelyek erősítik a digitális szuverenitást.
+    - Emelje ki, hogy reméli, részt vehet a FOSDEM-en Brüsszelben február elején, és szeretne személyesen találkozni.
+    - Határozza meg az összes rövidítést első használatkor. Zárja le udvarias elköszönéssel és meghívással további beszélgetésre vagy válaszra.
+    - Tartsa a hangnemet udvariasnak, tömörnek és személyesnek.

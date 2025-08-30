@@ -1,0 +1,45 @@
+cs:
+  name_label: "Jméno"
+  country_label: "Země"
+  city_label: "Město"
+  postal_label: "PSČ"
+  company_label: "Společnost"
+  project_label: "Projekt otevřeného softwaru"
+  affiliation_label: "Příslušnost"
+  generate_button: "Vygenerovat zprávu"
+  copy_button: "Kopírovat text"
+  required: "*"
+  instructions_label: "Zkopírujte tuto zprávu do svého LLM:"
+  note: "Žádná data nejsou ukládána ani odesílána. Upravte a zkopírujte dle potřeby."
+  dark_mode: "Tmavý režim"
+  light_mode: "Světlý režim"
+  header: "Evropa musí nyní investovat do digitální suverenity"
+  desc: "Cílem této kampaně je povzbudit příznivce otevřeného softwaru, aby zaslali osobní e-mail svým zástupcům v Evropském parlamentu. Vyplnění tohoto formuláře neshromažďuje uživatelská data, ale umožňuje vám snadno upravit a zkopírovat zprávu do vašeho oblíbeného LLM. Odtud ji můžete odeslat prostřednictvím svého osobního e-mailu (nebo pracovního, pokud preferujete). Chceme, aby byla co nejvíce osobní a relevantní, proto nepoužíváme standardizovanou zprávu jako v předchozích kampaních. Věnujte tomu pozornost a naplánujte si následnou akci na FOSDEM po skončení této kampaně."
+  affiliations:
+    - "-- Vyberte nebo automaticky vyplňte --"
+    - "Drupal Asociace"
+    - "Linux Nadace"
+    - "Eclipse Nadace"
+    - "Jiné"
+  instructions_block: |
+    Jednejte jako občan, který píše dopis s následujícími osobními údaji:
+    - Jméno: {name}
+    - Země: {country}
+    {city_line}
+    {postal_line}
+    {company_line}
+    {project_line}
+    {affiliation_line}
+
+    - Napište profesionální návrh e-mailu. Měl by být zdvořilý, stručný a neměl by přesáhnout čtyři odstavce.
+    - Zdůrazněte svůj osobní vztah k otevřenému softwaru.
+    - Hlavním tématem je digitální suverenita. Hlavním cílem je požádat relevantního europoslance, aby podpořil Evropský fond pro suverénní technologie. Vedlejším cílem je podpořit progresivnější politiku zadávání veřejných zakázek pro otevřený software.
+    - Odkazujte na následující zdroje: https://www.linuxfoundation.org/hubfs/Research%20Reports/WorldofOS_EUSpotlight_2025_081525.pdf nebo https://eu-stf.openforumeurope.org/wp-content/uploads/2025/08/EU-STF-Feasibility-Study_final.pdf
+    - Použijte alespoň jeden z poskytnutých odkazů jako zdroj pro podporu svého argumentu.
+    - Na základě poskytnutých informací najděte nejvhodnějšího europoslance. Ideálně by měl souviset s městem nebo tématem a pocházet ze země občana.
+    - Prozkoumejte tohoto europoslance na Wikipedii, oficiálních stránkách a v jeho biografii. Najděte jeho oficiální roli, členství ve výborech a veřejná prohlášení o technologiích, kybernetické bezpečnosti nebo digitální suverenitě. Pokud jsou tyto informace relevantní, uveďte konkrétní výbor jménem a odkažte na předchozí prohlášení nebo zprávu, abyste ukázali, že jste provedli výzkum.
+    - Prozkoumejte webové stránky a e-mail europoslance na základě poskytnuté adresy. Poštovní adresa a e-mail by měly být jasně uvedeny v dopise.
+    - Učiňte přímou, zdvořilou žádost, aby europoslanec podpořil politiky a investice, jako je zadávání veřejných zakázek na otevřený software, které posílí digitální suverenitu.
+    - Zdůrazněte, že doufáte, že se zúčastníte FOSDEM v Bruselu začátkem února a rádi byste se osobně setkali.
+    - Při prvním použití vysvětlete všechny zkratky. Ukončete zdvořilou frází a pozváním k dalšímu jednání nebo odpovědi.
+    - Zachovejte zdvořilý, stručný a osobní tón.

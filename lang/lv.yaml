@@ -1,0 +1,45 @@
+lv:
+  name_label: "Vārds"
+  country_label: "Valsts"
+  city_label: "Pilsēta"
+  postal_label: "Pasta indekss"
+  company_label: "Uzņēmums"
+  project_label: "Atvērtā koda projekts"
+  affiliation_label: "Piederība"
+  generate_button: "Ģenerēt ziņojumu"
+  copy_button: "Kopēt tekstu"
+  required: "*"
+  instructions_label: "Kopējiet šo ziņojumu savā LLM:"
+  note: "Dati netiek saglabāti vai nosūtīti. Rediģējiet un kopējiet pēc vajadzības."
+  dark_mode: "Tumšais režīms"
+  light_mode: "Gaišais režīms"
+  header: "Eiropai jāiegulda digitālajā suverenitātē tagad"
+  desc: "Šīs kampaņas mērķis ir mudināt atvērtā koda atbalstītājus nosūtīt personalizētus e-pastus saviem Eiropas Parlamenta pārstāvjiem. Šīs formas aizpildīšana neapkopo lietotāja datus, bet ļauj viegli rediģēt un kopēt ziņojumu uz jūsu iecienītāko LLM. No šejienes to var nosūtīt ar savu personīgo e-pastu (vai darba e-pastu, ja vēlaties). Vēlamies, lai tas būtu pēc iespējas personiskāks un atbilstošāks, tāpēc neizmantojam standartizētu ziņojumu kā iepriekšējās kampaņās. Ņemiet to nopietni un plānojiet turpmāku rīcību FOSDEM pēc kampaņas beigām."
+  affiliations:
+    - "-- Izvēlieties vai automātiski aizpildiet --"
+    - "Drupal Association"
+    - "Linux Foundation"
+    - "Eclipse Foundation"
+    - "Cits"
+  instructions_block: |
+    Rīkojieties kā pilsonis, kurš raksta vēstuli ar šādiem personas datiem:
+    - Vārds: {name}
+    - Valsts: {country}
+    {city_line}
+    {postal_line}
+    {company_line}
+    {project_line}
+    {affiliation_line}
+
+    - Uzrakstiet profesionālu e-pasta melnrakstu. Tam jābūt pieklājīgam, kodolīgam un nedrīkst pārsniegt četrus paragrāfus.
+    - Uzsvērt savu personīgo saikni ar atvērto kodu.
+    - Galvenā tēma ir digitālā suverenitāte. Galvenais mērķis ir lūgt attiecīgo Eiropas Parlamenta deputātu atbalstīt Eiropas Suverēnās Tehnoloģijas fondu. Otrs mērķis ir veicināt progresīvāku atvērtā koda iepirkuma politiku.
+    - Atsaucieties uz šādiem resursiem: https://www.linuxfoundation.org/hubfs/Research%20Reports/WorldofOS_EUSpotlight_2025_081525.pdf vai https://eu-stf.openforumeurope.org/wp-content/uploads/2025/08/EU-STF-Feasibility-Study_final.pdf
+    - Izmantojiet vismaz vienu no norādītajām saitēm kā avotu, lai atbalstītu savu argumentu.
+    - Pamatojoties uz sniegto informāciju, atrodiet vispiemērotāko Eiropas Parlamenta deputātu. Ideālā gadījumā saistīts ar pilsētu vai tēmu un no pilsoņa valsts.
+    - Izpētiet šo Eiropas Parlamenta deputātu Wikipedia, oficiālajā vietnē un biogrāfijā. Atrodiet oficiālo lomu, komitejas dalību un publiskos paziņojumus par tehnoloģijām, kiberdrošību vai digitālo suverenitāti. Ja šī informācija ir atbilstoša, norādiet konkrētu komiteju pēc nosaukuma un atsaucieties uz iepriekšēju paziņojumu vai ziņojumu, lai parādītu, ka esat veicis izpēti.
+    - Izpētiet Eiropas Parlamenta deputāta vietni un e-pastu, pamatojoties uz norādīto adresi. Pasta adrese un e-pasts skaidri jāiekļauj vēstulē.
+    - Izsakiet tiešu, pieklājīgu lūgumu Eiropas Parlamenta deputātam atbalstīt politiku un ieguldījumus, piemēram, atvērtā koda iepirkumu, kas stiprinās digitālo suverenitāti.
+    - Uzsvērt, ka cerat piedalīties FOSDEM Briselē februāra sākumā un vēlētos iespēju tikties personīgi.
+    - Definējiet visas saīsinājumus pirmajā lietošanas reizē. Noslēdziet ar pieklājīgu frāzi un aicinājumu uz turpmāku diskusiju vai atbildi.
+    - Saglabājiet pieklājīgu, kodolīgu un personisku toni.

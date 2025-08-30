@@ -1,0 +1,45 @@
+fr:
+  name_label: "Nom"
+  country_label: "Pays"
+  city_label: "Ville"
+  postal_label: "Code postal"
+  company_label: "Entreprise"
+  project_label: "Projet Open Source"
+  affiliation_label: "Affiliation"
+  generate_button: "Générer le message"
+  copy_button: "Copier le texte"
+  required: "*"
+  instructions_label: "Copiez ce message dans votre LLM :"
+  note: "Aucune donnée n'est stockée ou envoyée. Modifiez et copiez selon vos besoins."
+  dark_mode: "Mode sombre"
+  light_mode: "Mode clair"
+  header: "L'Europe doit investir dans la souveraineté numérique maintenant"
+  desc: "Le but de cette campagne est d'encourager les défenseurs de l'open source à envoyer des courriels personnels à leurs représentants au Parlement européen. Ce formulaire ne collecte aucune donnée utilisateur, mais vous permet de modifier et de copier facilement le message dans votre LLM préféré. Vous pouvez ensuite l'envoyer par courriel personnel (ou professionnel si vous préférez). Nous voulons que ce soit aussi personnel et pertinent que possible, donc nous n'utiliserons pas de message standard comme lors des campagnes précédentes. Prenez cela au sérieux et prévoyez un suivi à FOSDEM lorsque cette campagne se terminera."
+  affiliations:
+    - "-- Sélectionnez ou pré-rempli --"
+    - "Association Drupal"
+    - "Fondation Linux"
+    - "Fondation Eclipse"
+    - "Autre"
+  instructions_block: |
+    Agissez en tant que citoyen écrivant une lettre avec les détails personnels suivants :
+    - Nom : {name}
+    - Pays : {country}
+    {city_line}
+    {postal_line}
+    {company_line}
+    {project_line}
+    {affiliation_line}
+
+    - Rédigez un courriel professionnel. Il doit être poli, concis et ne pas dépasser quatre paragraphes.
+    - Mettez en avant votre lien personnel avec l'open source.
+    - Le sujet principal est la souveraineté numérique. L'objectif principal est de demander à un député européen de soutenir le Fonds européen pour la technologie souveraine. L'objectif secondaire est d'encourager des politiques d'achat plus proactives pour l'open source.
+    - Référencez l'un des guides suivants : https://www.linuxfoundation.org/hubfs/Research%20Reports/WorldofOS_EUSpotlight_2025_081525.pdf ou https://eu-stf.openforumeurope.org/wp-content/uploads/2025/08/EU-STF-Feasibility-Study_final.pdf
+    - Utilisez au moins un des liens fournis pour citer une source qui appuie votre argument.
+    - Trouvez le député européen le plus approprié en fonction des informations fournies. Idéalement, il serait lié à la ville ou au sujet, et du pays du citoyen.
+    - Recherchez ce député sur Wikipédia, son site officiel et sa biographie. Trouvez son rôle officiel, ses affiliations à des commissions et toute déclaration publique sur la technologie, la cybersécurité ou la souveraineté numérique. Si ces informations sont pertinentes, mentionnez la commission spécifique par son nom et faites référence à une déclaration ou un rapport pertinent pour montrer que vous avez fait vos recherches.
+    - Recherchez le site web et l'adresse e-mail du député, en fonction de l'adresse fournie. L'adresse postale et l'e-mail doivent être clairement inclus dans la lettre formatée.
+    - Faites une demande directe et respectueuse pour que le député soutienne des politiques et des investissements tels que l'achat d'open source qui renforceront la souveraineté numérique.
+    - Soulignez que vous espérez assister à FOSDEM à Bruxelles début février et que vous aimeriez avoir l'occasion de rencontrer en personne.
+    - Définissez tous les acronymes lors de leur première utilisation. Terminez par une formule de politesse et une invitation à poursuivre la discussion ou à répondre.
+    - Gardez un ton respectueux, concis et personnel.

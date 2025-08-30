@@ -1,0 +1,45 @@
+de:
+  name_label: "Name"
+  country_label: "Land"
+  city_label: "Stadt"
+  postal_label: "Postleitzahl"
+  company_label: "Arbeitgeber"
+  project_label: "Open-Source-Projekt"
+  affiliation_label: "Zugehörigkeit"
+  generate_button: "Nachricht generieren"
+  copy_button: "Text kopieren"
+  required: "*"
+  instructions_label: "Kopieren Sie diese Nachricht in Ihr LLM:"
+  note: "Es werden keine Daten gespeichert oder gesendet. Bearbeiten und kopieren Sie nach Bedarf."
+  dark_mode: "Dunkler Modus"
+  light_mode: "Heller Modus"
+  header: "Europa muss jetzt in digitale Souveränität investieren"
+  desc: "Ziel dieser Kampagne ist es, Open-Source-Befürworter dazu zu ermutigen, persönliche E-Mails an ihre Abgeordneten des Europäischen Parlaments zu senden. Das Ausfüllen dieses Formulars sammelt keine Benutzerdaten, ermöglicht es Ihnen jedoch, die Nachricht einfach zu bearbeiten und in Ihr bevorzugtes LLM zu kopieren. Sie können sie dann in Ihrer persönlichen E-Mail (oder Ihrer beruflichen, wenn Sie möchten) versenden. Wir möchten, dass dies so persönlich und relevant wie möglich ist, daher verwenden wir keine Standardnachricht wie bei früheren Kampagnen. Nehmen Sie es ernst und planen Sie ein Follow-up bei FOSDEM, wenn diese Kampagne endet."
+  affiliations:
+    - "-- Auswahl oder vorausgefüllt --"
+    - "Drupal Association"
+    - "Linux Foundation"
+    - "Eclipse Foundation"
+    - "Andere"
+  instructions_block: |
+    Handeln Sie als Bürger und verfassen Sie einen Brief mit folgenden persönlichen Angaben:
+    - Name: {name}
+    - Land: {country}
+    {city_line}
+    {postal_line}
+    {company_line}
+    {project_line}
+    {affiliation_line}
+
+    - Verfassen Sie einen professionellen E-Mail-Entwurf. Er sollte höflich, prägnant und nicht länger als vier Absätze sein.
+    - Heben Sie Ihre persönliche Verbindung zu Open Source hervor.
+    - Das Hauptthema ist digitale Souveränität. Das Hauptziel ist, einen relevanten Abgeordneten des Europäischen Parlaments um Unterstützung für den EU Sovereign Tech Fund zu bitten. Das Nebenziel ist eine proaktivere Open-Source-Beschaffungspolitik.
+    - Verweisen Sie auf einen der folgenden Leitfäden: https://www.linuxfoundation.org/hubfs/Research%20Reports/WorldofOS_EUSpotlight_2025_081525.pdf oder https://eu-stf.openforumeurope.org/wp-content/uploads/2025/08/EU-STF-Feasibility-Study_final.pdf
+    - Verwenden Sie mindestens einen der bereitgestellten Links, um eine Quelle zu zitieren, die Ihr Argument unterstützt.
+    - Finden Sie anhand der bereitgestellten Informationen den am besten geeigneten Abgeordneten. Idealerweise ist er mit der Stadt oder dem Thema verbunden und stammt aus dem Land des Bürgers.
+    - Recherchieren Sie diesen Abgeordneten auf Wikipedia, seiner offiziellen Webseite und in seiner Biografie. Finden Sie die offizielle Rolle, Ausschussmitgliedschaften und öffentliche Stellungnahmen zu Technologie, Cybersicherheit oder digitaler Souveränität. Wenn diese Informationen relevant sind, nennen Sie den spezifischen Ausschuss und verweisen Sie auf eine relevante frühere Stellungnahme oder einen Bericht, um zu zeigen, dass Sie recherchiert haben.
+    - Recherchieren Sie die Webseite und E-Mail-Adresse des Abgeordneten anhand der angegebenen Adresse. Die Postadresse und E-Mail sollten klar im formatierten Brief enthalten sein.
+    - Bitten Sie den Abgeordneten direkt und respektvoll, Politiken und Investitionen wie die Beschaffung von Open Source zu unterstützen, die die digitale Souveränität stärken.
+    - Heben Sie hervor, dass Sie hoffen, Anfang Februar am FOSDEM in Brüssel teilzunehmen und gerne persönlich treffen würden.
+    - Definieren Sie alle Abkürzungen bei der ersten Verwendung. Schließen Sie mit einer höflichen Grußformel und einer Einladung zu weiterem Austausch oder einer Antwort.
+    - Halten Sie den Ton respektvoll, prägnant und persönlich.

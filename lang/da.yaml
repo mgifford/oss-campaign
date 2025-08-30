@@ -1,0 +1,45 @@
+da:
+  name_label: "Navn"
+  country_label: "Land"
+  city_label: "By"
+  postal_label: "Postnummer"
+  company_label: "Firma"
+  project_label: "Open Source-projekt"
+  affiliation_label: "Tilknytning"
+  generate_button: "Generer besked"
+  copy_button: "Kopier tekst"
+  required: "*"
+  instructions_label: "Kopier denne besked til din LLM:"
+  note: "Ingen data gemmes eller sendes. Redigér og kopier efter behov."
+  dark_mode: "Mørk tilstand"
+  light_mode: "Lys tilstand"
+  header: "Europa skal investere i digital suverænitet nu"
+  desc: "Formålet med denne kampagne er at opfordre fortalere for open source til at sende personlige e-mails til deres repræsentanter i Europa-Parlamentet. Udfyldning af denne formular indsamler ikke brugerdata, men gør det nemt at redigere og kopiere beskeden til din foretrukne LLM. Herfra kan du sende den via din personlige e-mail (eller arbejdsmail, hvis du foretrækker). Vi ønsker, at den skal være så personlig og relevant som muligt, derfor bruger vi ikke en standardiseret besked som i tidligere kampagner. Tag det alvorligt og planlæg en opfølgning på FOSDEM, når denne kampagne er afsluttet."
+  affiliations:
+    - "-- Vælg eller automatisk udfyld --"
+    - "Drupal Association"
+    - "Linux Foundation"
+    - "Eclipse Foundation"
+    - "Andet"
+  instructions_block: |
+    Agér som en borger, der skriver et brev med følgende personlige oplysninger:
+    - Navn: {name}
+    - Land: {country}
+    {city_line}
+    {postal_line}
+    {company_line}
+    {project_line}
+    {affiliation_line}
+
+    - Skriv et professionelt udkast til en e-mail. Det skal være høfligt, kortfattet og ikke overstige fire afsnit.
+    - Fremhæv din personlige relation til open source.
+    - Hovedemnet er digital suverænitet. Hovedmålet er at bede en relevant MEP om at støtte Den Europæiske Fond for Suveræn Teknologi. Sekundært mål er at fremme mere progressiv indkøbspolitik for open source.
+    - Henvis til følgende ressourcer: https://www.linuxfoundation.org/hubfs/Research%20Reports/WorldofOS_EUSpotlight_2025_081525.pdf eller https://eu-stf.openforumeurope.org/wp-content/uploads/2025/08/EU-STF-Feasibility-Study_final.pdf
+    - Brug mindst ét af de angivne links som kilde til at understøtte dit argument.
+    - Baseret på de givne oplysninger, find den mest relevante MEP. Helst relateret til byen eller emnet og fra borgerens land.
+    - Undersøg denne MEP på Wikipedia, den officielle hjemmeside og biografien. Find den officielle rolle, komitémedlemskab og eventuelle offentlige udtalelser om teknologi, cybersikkerhed eller digital suverænitet. Hvis disse oplysninger er relevante, nævn den specifikke komité ved navn og henvis til en tidligere udtalelse eller rapport for at vise, at du har lavet research.
+    - Undersøg MEP'ens hjemmeside og e-mail baseret på den angivne adresse. Postadresse og e-mail skal tydeligt fremgå af brevet.
+    - Kom med en direkte, høflig anmodning om, at MEP'en støtter politikker og investeringer som open source-indkøb, der styrker digital suverænitet.
+    - Fremhæv, at du håber at deltage i FOSDEM i Bruxelles i begyndelsen af februar og gerne vil have mulighed for at mødes personligt.
+    - Definér alle forkortelser ved første brug. Afslut med en høflig sætning og invitation til yderligere dialog eller svar.
+    - Hold tonen høflig, kortfattet og personlig.

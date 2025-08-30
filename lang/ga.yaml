@@ -1,0 +1,45 @@
+ga:
+  name_label: "Ainm"
+  country_label: "Tír"
+  city_label: "Cathair"
+  postal_label: "Cód Poist"
+  company_label: "Cuideachta"
+  project_label: "Tionscadal Foinse Oscailte"
+  affiliation_label: "Cleamhnas"
+  generate_button: "Gin teachtaireacht"
+  copy_button: "Cóipeáil téacs"
+  required: "*"
+  instructions_label: "Cóipeáil an teachtaireacht seo chuig do LLM:"
+  note: "Ní stóráiltear ná seoltar sonraí. Cuir in eagar agus cóipeáil de réir mar is gá."
+  dark_mode: "Mód dorcha"
+  light_mode: "Mód éadrom"
+  header: "Caithfidh an Eoraip infheistiú i suverenacht dhigiteach anois"
+  desc: "Is é cuspóir an fheachtais seo lucht tacaíochta foinse oscailte a spreagadh chun ríomhphoist phearsanta a sheoladh chuig a n-ionadaithe sa Pharlaimint Eorpach. Ní bhailíonn an fhoirm seo sonraí úsáideora, ach cuireann sé ar do chumas an teachtaireacht a chur in eagar agus a chóipeáil go héasca chuig do LLM is fearr leat. As seo, is féidir leat é a sheoladh trí do r-phost pearsanta (nó gnó, más fearr leat). Ba mhaith linn go mbeadh sé chomh pearsanta agus chomh ábhartha agus is féidir, agus dá bhrí sin ní úsáidimid teachtaireacht chaighdeánaithe mar a rinneadh i bhfeachtais roimhe seo. Glac go dáiríre é agus pleanáil leantach ag FOSDEM nuair a bheidh an feachtas seo críochnaithe."
+  affiliations:
+    - "-- Roghnaigh nó líon isteach go huathoibríoch --"
+    - "Drupal Association"
+    - "Linux Foundation"
+    - "Eclipse Foundation"
+    - "Eile"
+  instructions_block: |
+    Déan gníomh mar shaoránach atá ag scríobh litir leis na sonraí pearsanta seo a leanas:
+    - Ainm: {name}
+    - Tír: {country}
+    {city_line}
+    {postal_line}
+    {company_line}
+    {project_line}
+    {affiliation_line}
+
+    - Scríobh dréacht gairmiúil ríomhphoist. Ba chóir go mbeadh sé béasach, gonta agus gan dul thar ceithre pharagraif.
+    - Leag béim ar do chaidreamh pearsanta le foinse oscailte.
+    - Is é príomhábhar an suverenacht dhigiteach. Is é an príomhchuspóir ná iarratas a dhéanamh ar Fheisire Eorpach ábhartha tacú leis an gCiste Eorpach um Theicneolaíocht Suveránach. Is é an dara cuspóir ná beartais soláthair níos forásaí a chur chun cinn do foinse oscailte.
+    - Déan tagairt do na hacmhainní seo a leanas: https://www.linuxfoundation.org/hubfs/Research%20Reports/WorldofOS_EUSpotlight_2025_081525.pdf nó https://eu-stf.openforumeurope.org/wp-content/uploads/2025/08/EU-STF-Feasibility-Study_final.pdf
+    - Úsáid ar a laghad ceann de na naisc a chuirtear ar fáil mar fhoinse chun tacú le d'argóint.
+    - Bunaithe ar an eolas a chuirtear ar fáil, aimsigh an Feisire Eorpach is oiriúnaí. Go hidéalach, ba cheart go mbeadh baint aige leis an gcathair nó leis an ábhar agus go mbeadh sé as tír an tsaoránaigh.
+    - Déan taighde ar an bhFeisire Eorpach seo ar Vicipéid, ar an suíomh gréasáin oifigiúil agus ar a bheathaisnéis. Faigh an ról oifigiúil, ballraíocht coiste agus aon ráitis phoiblí faoi theicneolaíocht, cibearshlándáil nó suverenacht dhigiteach. Má tá an t-eolas seo ábhartha, luaigh an coiste sonrach agus déan tagairt do ráiteas nó tuarascáil roimhe seo chun a thaispeáint go ndearna tú taighde.
+    - Déan taighde ar shuíomh gréasáin agus r-phost an Fheisire Eorpaigh bunaithe ar an seoladh a chuirtear ar fáil. Ba chóir go mbeadh an seoladh poist agus an r-phost le feiceáil go soiléir sa litir.
+    - Déan iarratas díreach, béasach ar an bhFeisire Eorpach tacú le beartais agus infheistíochtaí cosúil le soláthar foinse oscailte a neartóidh suverenacht dhigiteach.
+    - Leag béim ar an dóchas go mbeidh tú i láthair ag FOSDEM sa Bhruiséil go luath i mí Feabhra agus gur mhaith leat an deis bualadh le chéile go pearsanta.
+    - Sainmhínigh gach giorrúchán ar an gcéad úsáid. Críochnaigh le frása béasach agus cuireadh chun tuilleadh plé nó freagra.
+    - Coinnigh an tón béasach, gonta agus pearsanta.

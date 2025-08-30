@@ -1,0 +1,45 @@
+pt:
+  name_label: "Nome"
+  country_label: "País"
+  city_label: "Cidade"
+  postal_label: "Código Postal"
+  company_label: "Empresa"
+  project_label: "Projeto Open Source"
+  affiliation_label: "Afiliação"
+  generate_button: "Gerar mensagem"
+  copy_button: "Copiar texto"
+  required: "*"
+  instructions_label: "Copie esta mensagem para o seu LLM:"
+  note: "Nenhum dado é armazenado ou enviado. Edite e copie conforme necessário."
+  dark_mode: "Modo escuro"
+  light_mode: "Modo claro"
+  header: "A Europa precisa investir em soberania digital agora"
+  desc: "O objetivo desta campanha é incentivar defensores do open source a enviar e-mails pessoais aos seus representantes no Parlamento Europeu. Preencher este formulário não coleta dados do usuário, mas permite que você edite e copie facilmente a mensagem para o seu LLM favorito. A partir daqui, você pode enviá-la pelo seu e-mail pessoal (ou de trabalho, se preferir). Queremos que seja o mais pessoal e relevante possível, por isso não usaremos uma mensagem padrão como em campanhas anteriores. Leve a sério e planeje um acompanhamento no FOSDEM quando esta campanha terminar."
+  affiliations:
+    - "-- Selecione ou preenchido automaticamente --"
+    - "Associação Drupal"
+    - "Fundação Linux"
+    - "Fundação Eclipse"
+    - "Outro"
+  instructions_block: |
+    Aja como um cidadão escrevendo uma carta com os seguintes dados pessoais:
+    - Nome: {name}
+    - País: {country}
+    {city_line}
+    {postal_line}
+    {company_line}
+    {project_line}
+    {affiliation_line}
+
+    - Escreva um rascunho de e-mail profissional. Deve ser educado, conciso e não ter mais de quatro parágrafos.
+    - Destaque sua conexão pessoal com o open source.
+    - O tema principal é soberania digital. O objetivo principal é solicitar a um eurodeputado relevante que apoie o Fundo Europeu de Tecnologia Soberana. O objetivo secundário é promover políticas de aquisição mais proativas para o open source.
+    - Faça referência ao seguinte guia: https://www.linuxfoundation.org/hubfs/Research%20Reports/WorldofOS_EUSpotlight_2025_081525.pdf ou https://eu-stf.openforumeurope.org/wp-content/uploads/2025/08/EU-STF-Feasibility-Study_final.pdf
+    - Use pelo menos um dos links fornecidos para citar uma fonte que apoie seu argumento.
+    - Com base nas informações fornecidas, encontre o eurodeputado mais adequado. Idealmente, alguém ligado à cidade ou ao tema, e do país do cidadão.
+    - Pesquise esse eurodeputado na Wikipedia, em seu site oficial e biografia. Encontre o cargo oficial, as participações em comitês e quaisquer declarações públicas sobre tecnologia, cibersegurança ou soberania digital. Se essas informações forem relevantes, mencione o comitê específico pelo nome e faça referência a uma declaração ou relatório relevante para mostrar que você pesquisou.
+    - Pesquise o site e o e-mail do eurodeputado, com base no endereço fornecido. O endereço postal e o e-mail devem estar claramente incluídos na carta formatada.
+    - Faça um pedido direto e respeitoso para que o eurodeputado apoie políticas e investimentos como a aquisição de open source, que fortalecerão a soberania digital.
+    - Destaque que você espera participar do FOSDEM em Bruxelas no início de fevereiro e gostaria de ter a oportunidade de se encontrar pessoalmente.
+    - Defina todas as siglas no primeiro uso. Termine com uma saudação educada e convite para continuar a conversa ou responder.
+    - Mantenha um tom respeitoso, conciso e pessoal.

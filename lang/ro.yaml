@@ -1,0 +1,45 @@
+ro:
+  name_label: "Nume"
+  country_label: "Țară"
+  city_label: "Oraș"
+  postal_label: "Cod poștal"
+  company_label: "Companie"
+  project_label: "Proiect Open Source"
+  affiliation_label: "Afiliere"
+  generate_button: "Generează mesaj"
+  copy_button: "Copiază textul"
+  required: "*"
+  instructions_label: "Copiați acest mesaj în LLM-ul dvs.:"
+  note: "Nu se stochează sau trimit date. Editați și copiați după necesitate."
+  dark_mode: "Mod întunecat"
+  light_mode: "Mod luminos"
+  header: "Europa trebuie să investească acum în suveranitatea digitală"
+  desc: "Scopul acestei campanii este de a încuraja susținătorii open source să trimită e-mailuri personale reprezentanților lor din Parlamentul European. Completarea acestui formular nu colectează date despre utilizator, dar vă permite să editați și să copiați cu ușurință mesajul în LLM-ul preferat. De aici îl puteți trimite din e-mailul personal (sau de la serviciu, dacă preferați). Dorim să fie cât mai personal și relevant posibil, așa că nu vom folosi un mesaj standard ca în campaniile anterioare. Luați în serios și planificați un follow-up la FOSDEM când această campanie se va încheia."
+  affiliations:
+    - "-- Selectați sau completat automat --"
+    - "Asociația Drupal"
+    - "Fundația Linux"
+    - "Fundația Eclipse"
+    - "Altul"
+  instructions_block: |
+    Acționați ca un cetățean care scrie o scrisoare cu următoarele date personale:
+    - Nume: {name}
+    - Țară: {country}
+    {city_line}
+    {postal_line}
+    {company_line}
+    {project_line}
+    {affiliation_line}
+
+    - Scrieți un draft de e-mail profesional. Trebuie să fie politicos, concis și să nu depășească patru paragrafe.
+    - Evidențiați legătura personală cu open source.
+    - Subiectul principal este suveranitatea digitală. Scopul principal este să solicitați unui europarlamentar relevant să sprijine Fondul European pentru Tehnologie Suverană. Scopul secundar este promovarea unor politici de achiziții mai proactive pentru open source.
+    - Faceți referire la următorul ghid: https://www.linuxfoundation.org/hubfs/Research%20Reports/WorldofOS_EUSpotlight_2025_081525.pdf sau https://eu-stf.openforumeurope.org/wp-content/uploads/2025/08/EU-STF-Feasibility-Study_final.pdf
+    - Utilizați cel puțin unul dintre linkurile furnizate pentru a cita o sursă care vă susține argumentul.
+    - Pe baza informațiilor furnizate, găsiți cel mai potrivit europarlamentar. Ideal ar fi să fie legat de oraș sau subiect și să fie din țara cetățeanului.
+    - Cercetați acel europarlamentar pe Wikipedia, pe site-ul oficial și în biografie. Găsiți rolul oficial, apartenența la comisii și orice declarații publice despre tehnologie, securitate cibernetică sau suveranitate digitală. Dacă aceste informații sunt relevante, menționați comisia specifică după nume și faceți referire la o declarație sau raport relevant pentru a arăta că ați făcut cercetări.
+    - Cercetați site-ul web și adresa de e-mail a europarlamentarului, pe baza adresei furnizate. Adresa poștală și e-mailul trebuie să fie clar incluse în scrisoarea formatată.
+    - Faceți o solicitare directă și respectuoasă pentru ca europarlamentarul să sprijine politici și investiții precum achiziția de open source care va consolida suveranitatea digitală.
+    - Evidențiați că sperați să participați la FOSDEM la Bruxelles la începutul lunii februarie și că ați dori să aveți ocazia să vă întâlniți personal.
+    - Definiți toate acronimele la prima utilizare. Încheiați cu o formulă de încheiere politicoasă și o invitație la discuții sau răspuns.
+    - Mențineți un ton respectuos, concis și personal.

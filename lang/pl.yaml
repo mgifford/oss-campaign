@@ -1,0 +1,45 @@
+pl:
+  name_label: "Imię"
+  country_label: "Kraj"
+  city_label: "Miasto"
+  postal_label: "Kod pocztowy"
+  company_label: "Firma"
+  project_label: "Projekt Open Source"
+  affiliation_label: "Afiliacja"
+  generate_button: "Generuj wiadomość"
+  copy_button: "Kopiuj tekst"
+  required: "*"
+  instructions_label: "Skopiuj tę wiadomość do swojego LLM:"
+  note: "Żadne dane nie są przechowywane ani wysyłane. Edytuj i kopiuj według potrzeb."
+  dark_mode: "Tryb ciemny"
+  light_mode: "Tryb jasny"
+  header: "Europa musi teraz zainwestować w suwerenność cyfrową"
+  desc: "Celem tej kampanii jest zachęcenie zwolenników open source do wysyłania osobistych e-maili do swoich przedstawicieli w Parlamencie Europejskim. Wypełnienie tego formularza nie gromadzi danych użytkownika, ale pozwala łatwo edytować i kopiować wiadomość do ulubionego LLM. Stąd możesz wysłać ją ze swojego osobistego e-maila (lub służbowego, jeśli wolisz). Chcemy, aby była jak najbardziej osobista i istotna, dlatego nie używamy standardowej wiadomości jak w poprzednich kampaniach. Potraktuj to poważnie i zaplanuj dalsze działania na FOSDEM, gdy kampania się zakończy."
+  affiliations:
+    - "-- Wybierz lub automatycznie wypełnione --"
+    - "Stowarzyszenie Drupal"
+    - "Fundacja Linux"
+    - "Fundacja Eclipse"
+    - "Inne"
+  instructions_block: |
+    Działaj jako obywatel piszący list z następującymi danymi osobowymi:
+    - Imię: {name}
+    - Kraj: {country}
+    {city_line}
+    {postal_line}
+    {company_line}
+    {project_line}
+    {affiliation_line}
+
+    - Napisz profesjonalny szkic e-maila. Powinien być uprzejmy, zwięzły i nie dłuższy niż cztery akapity.
+    - Podkreśl swoje osobiste powiązania z open source.
+    - Głównym tematem jest suwerenność cyfrowa. Głównym celem jest poproszenie odpowiedniego europosła o wsparcie Europejskiego Funduszu Technologii Suwerennej. Celem dodatkowym jest promowanie bardziej proaktywnej polityki zamówień publicznych open source.
+    - Odwołaj się do jednego z następujących przewodników: https://www.linuxfoundation.org/hubfs/Research%20Reports/WorldofOS_EUSpotlight_2025_081525.pdf lub https://eu-stf.openforumeurope.org/wp-content/uploads/2025/08/EU-STF-Feasibility-Study_final.pdf
+    - Użyj co najmniej jednego z podanych linków, aby zacytować źródło wspierające Twój argument.
+    - Na podstawie podanych informacji znajdź najbardziej odpowiedniego europosła. Najlepiej, aby był związany z miastem lub tematem i pochodził z kraju obywatela.
+    - Zbadaj tego europosła na Wikipedii, jego oficjalnej stronie i w biografii. Znajdź oficjalną rolę, członkostwo w komisjach i wszelkie publiczne wypowiedzi na temat technologii, cyberbezpieczeństwa lub suwerenności cyfrowej. Jeśli te informacje są istotne, wymień konkretną komisję z nazwy i odwołaj się do odpowiedniej wcześniejszej wypowiedzi lub raportu, aby pokazać, że przeprowadziłeś badania.
+    - Zbadaj stronę internetową i adres e-mail europosła na podstawie podanego adresu. Adres pocztowy i e-mail powinny być wyraźnie zawarte w sformatowanym liście.
+    - Złóż bezpośrednią, uprzejmą prośbę o wsparcie polityk i inwestycji, takich jak zamówienia publiczne open source, które wzmocnią suwerenność cyfrową.
+    - Podkreśl, że masz nadzieję uczestniczyć w FOSDEM w Brukseli na początku lutego i chciałbyś mieć okazję spotkać się osobiście.
+    - Zdefiniuj wszystkie skróty przy pierwszym użyciu. Zakończ uprzejmym zakończeniem i zaproszeniem do dalszej dyskusji lub odpowiedzi.
+    - Zachowaj uprzejmy, zwięzły i osobisty ton.

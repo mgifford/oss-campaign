@@ -1,0 +1,45 @@
+it:
+  name_label: "Nome"
+  country_label: "Paese"
+  city_label: "Città"
+  postal_label: "CAP"
+  company_label: "Azienda"
+  project_label: "Progetto Open Source"
+  affiliation_label: "Affiliazione"
+  generate_button: "Genera messaggio"
+  copy_button: "Copia testo"
+  required: "*"
+  instructions_label: "Copia questo messaggio nel tuo LLM:"
+  note: "Nessun dato viene memorizzato o inviato. Modifica e copia secondo necessità."
+  dark_mode: "Modalità scura"
+  light_mode: "Modalità chiara"
+  header: "L'Europa deve investire nella sovranità digitale ora"
+  desc: "L'obiettivo di questa campagna è incoraggiare i sostenitori dell'open source a inviare email personali ai loro rappresentanti del Parlamento Europeo. La compilazione di questo modulo non raccoglie dati utente, ma ti consente di modificare e copiare facilmente il messaggio nel tuo LLM preferito. Da qui puoi inviarlo tramite la tua email personale (o quella lavorativa, se preferisci). Vogliamo che sia il più personale e rilevante possibile, quindi non useremo un messaggio standard come nelle campagne precedenti. Prendilo sul serio e pianifica un follow-up a FOSDEM quando questa campagna si concluderà."
+  affiliations:
+    - "-- Seleziona o precompilato --"
+    - "Associazione Drupal"
+    - "Fondazione Linux"
+    - "Fondazione Eclipse"
+    - "Altro"
+  instructions_block: |
+    Agisci come un cittadino che scrive una lettera con i seguenti dati personali:
+    - Nome: {name}
+    - Paese: {country}
+    {city_line}
+    {postal_line}
+    {company_line}
+    {project_line}
+    {affiliation_line}
+
+    - Scrivi una bozza di email professionale. Deve essere educata, concisa e non superare i quattro paragrafi.
+    - Evidenzia la tua connessione personale con l'open source.
+    - Il tema principale è la sovranità digitale. L'obiettivo principale è chiedere a un eurodeputato di sostenere l'EU Sovereign Tech Fund. L'obiettivo secondario è promuovere politiche di acquisizione più proattive per l'open source.
+    - Fai riferimento a una delle seguenti guide: https://www.linuxfoundation.org/hubfs/Research%20Reports/WorldofOS_EUSpotlight_2025_081525.pdf oppure https://eu-stf.openforumeurope.org/wp-content/uploads/2025/08/EU-STF-Feasibility-Study_final.pdf
+    - Usa almeno uno dei link forniti per citare una fonte che supporti il tuo argomento.
+    - In base alle informazioni fornite, trova l'eurodeputato più appropriato. Idealmente, dovrebbe essere legato alla città o all'argomento e provenire dal paese del cittadino.
+    - Ricerca quell'eurodeputato su Wikipedia, sul suo sito ufficiale e nella biografia. Trova il ruolo ufficiale, le appartenenze ai comitati e qualsiasi dichiarazione pubblica su tecnologia, cybersicurezza o sovranità digitale. Se queste informazioni sono rilevanti, menziona il comitato specifico per nome e fai riferimento a una dichiarazione o rapporto pertinente per dimostrare che hai fatto ricerche.
+    - Ricerca il sito web e l'email dell'eurodeputato, in base all'indirizzo fornito. L'indirizzo postale e l'email devono essere chiaramente inclusi nella lettera formattata.
+    - Fai una richiesta diretta e rispettosa affinché l'eurodeputato sostenga politiche e investimenti come l'acquisizione di open source che rafforzeranno la sovranità digitale.
+    - Sottolinea che speri di partecipare a FOSDEM a Bruxelles a inizio febbraio e che ti piacerebbe avere l'opportunità di incontrarti di persona.
+    - Definisci tutte le sigle al primo utilizzo. Termina con una chiusura educata e un invito a continuare la conversazione o a rispondere.
+    - Mantieni un tono rispettoso, conciso e personale.

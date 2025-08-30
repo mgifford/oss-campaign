@@ -1,0 +1,45 @@
+nl:
+  name_label: "Naam"
+  country_label: "Land"
+  city_label: "Stad"
+  postal_label: "Postcode"
+  company_label: "Bedrijf"
+  project_label: "Open Source Project"
+  affiliation_label: "Affiliatie"
+  generate_button: "Genereer bericht"
+  copy_button: "Kopieer tekst"
+  required: "*"
+  instructions_label: "Kopieer dit bericht naar je LLM:"
+  note: "Er worden geen gegevens opgeslagen of verzonden. Pas aan en kopieer indien nodig."
+  dark_mode: "Donkere modus"
+  light_mode: "Lichte modus"
+  header: "Europa moet nu investeren in digitale soevereiniteit"
+  desc: "Het doel van deze campagne is om open source-voorstanders aan te moedigen persoonlijke e-mails te sturen naar hun vertegenwoordigers in het Europees Parlement. Het invullen van dit formulier verzamelt geen gebruikersgegevens, maar stelt je in staat het bericht eenvoudig te bewerken en te kopiëren naar je favoriete LLM. Van hieruit kun je het versturen via je persoonlijke e-mail (of werkmail als je dat liever hebt). We willen dat het zo persoonlijk en relevant mogelijk is, dus we gebruiken geen standaardbericht zoals bij eerdere campagnes. Neem het serieus en plan een follow-up op FOSDEM wanneer deze campagne eindigt."
+  affiliations:
+    - "-- Selecteer of automatisch ingevuld --"
+    - "Drupal Vereniging"
+    - "Linux Stichting"
+    - "Eclipse Stichting"
+    - "Overig"
+  instructions_block: |
+    Handel als een burger die een brief schrijft met de volgende persoonlijke gegevens:
+    - Naam: {name}
+    - Land: {country}
+    {city_line}
+    {postal_line}
+    {company_line}
+    {project_line}
+    {affiliation_line}
+
+    - Schrijf een professionele e-mail. Deze moet beleefd, beknopt en niet langer dan vier alinea's zijn.
+    - Benadruk je persoonlijke band met open source.
+    - Het hoofdthema is digitale soevereiniteit. Het primaire doel is om een relevante Europarlementariër te vragen het EU Sovereign Tech Fund te steunen. Het secundaire doel is om proactiever beleid voor open source-inkoop te bevorderen.
+    - Verwijs naar een van de volgende gidsen: https://www.linuxfoundation.org/hubfs/Research%20Reports/WorldofOS_EUSpotlight_2025_081525.pdf of https://eu-stf.openforumeurope.org/wp-content/uploads/2025/08/EU-STF-Feasibility-Study_final.pdf
+    - Gebruik ten minste één van de gegeven links om een bron te citeren die je argument ondersteunt.
+    - Zoek op basis van de verstrekte informatie de meest geschikte Europarlementariër. Idealiter iemand die verbonden is met de stad of het onderwerp, en uit het land van de burger komt.
+    - Onderzoek deze Europarlementariër op Wikipedia, zijn/haar officiële website en biografie. Zoek de officiële rol, commissielidmaatschappen en eventuele publieke uitspraken over technologie, cyberveiligheid of digitale soevereiniteit. Als deze informatie relevant is, noem dan de specifieke commissie bij naam en verwijs naar een relevante eerdere uitspraak of rapport om te laten zien dat je onderzoek hebt gedaan.
+    - Zoek de website en het e-mailadres van de Europarlementariër op basis van het opgegeven adres. Het postadres en e-mailadres moeten duidelijk in de geformatteerde brief staan.
+    - Doe een directe, respectvolle aanvraag om beleid en investeringen zoals open source-inkoop te steunen die digitale soevereiniteit zullen versterken.
+    - Benadruk dat je hoopt FOSDEM in Brussel begin februari bij te wonen en graag persoonlijk zou willen ontmoeten.
+    - Definieer alle afkortingen bij het eerste gebruik. Sluit af met een beleefde groet en een uitnodiging voor verdere discussie of antwoord.
+    - Houd de toon respectvol, beknopt en persoonlijk.

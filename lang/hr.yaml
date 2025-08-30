@@ -1,0 +1,45 @@
+hr:
+  name_label: "Ime"
+  country_label: "Država"
+  city_label: "Grad"
+  postal_label: "Poštanski broj"
+  company_label: "Tvrtka"
+  project_label: "Open Source projekt"
+  affiliation_label: "Pripadnost"
+  generate_button: "Generiraj poruku"
+  copy_button: "Kopiraj tekst"
+  required: "*"
+  instructions_label: "Kopirajte ovu poruku u svoj LLM:"
+  note: "Podaci se ne pohranjuju niti šalju. Uredite i kopirajte po potrebi."
+  dark_mode: "Tamni način rada"
+  light_mode: "Svijetli način rada"
+  header: "Europa mora ulagati u digitalni suverenitet sada"
+  desc: "Cilj ove kampanje je potaknuti zagovornike otvorenog koda da pošalju osobne e-mailove svojim predstavnicima u Europskom parlamentu. Popunjavanje ovog obrasca ne prikuplja korisničke podatke, ali vam omogućuje jednostavno uređivanje i kopiranje poruke u vaš omiljeni LLM. Ovdje je možete poslati putem osobnog e-maila (ili poslovnog, ako želite). Želimo da bude što osobnija i relevantnija, stoga ne koristimo standardiziranu poruku kao u prethodnim kampanjama. Shvatite to ozbiljno i planirajte praćenje na FOSDEM-u nakon završetka ove kampanje."
+  affiliations:
+    - "-- Odaberite ili automatski popunite --"
+    - "Drupal Association"
+    - "Linux Foundation"
+    - "Eclipse Foundation"
+    - "Drugo"
+  instructions_block: |
+    Djelujte kao građanin koji piše pismo sa sljedećim osobnim podacima:
+    - Ime: {name}
+    - Država: {country}
+    {city_line}
+    {postal_line}
+    {company_line}
+    {project_line}
+    {affiliation_line}
+
+    - Napišite profesionalni nacrt e-maila. Treba biti pristojan, sažet i ne smije prelaziti četiri odlomka.
+    - Istaknite svoj osobni odnos prema otvorenom kodu.
+    - Glavna tema je digitalni suverenitet. Glavni cilj je zamoliti relevantnog europarlamentarca da podrži Europski fond za suverene tehnologije. Sekundarni cilj je promicanje progresivnijih politika javne nabave za otvoreni kod.
+    - Pozovite se na sljedeće izvore: https://www.linuxfoundation.org/hubfs/Research%20Reports/WorldofOS_EUSpotlight_2025_081525.pdf ili https://eu-stf.openforumeurope.org/wp-content/uploads/2025/08/EU-STF-Feasibility-Study_final.pdf
+    - Upotrijebite barem jedan od navedenih linkova kao izvor za potporu svom argumentu.
+    - Na temelju danih informacija pronađite najprikladnijeg europarlamentarca. Idealno bi bilo da je vezan uz grad ili temu i da je iz zemlje građanina.
+    - Istražite tog europarlamentarca na Wikipediji, službenoj web stranici i biografiji. Pronađite službenu ulogu, članstvo u odborima i javne izjave o tehnologiji, kibernetičkoj sigurnosti ili digitalnom suverenitetu. Ako su te informacije relevantne, navedite konkretni odbor po imenu i pozovite se na prethodnu izjavu ili izvješće kako biste pokazali da ste napravili istraživanje.
+    - Istražite web stranicu i e-mail europarlamentarca na temelju navedene adrese. Poštanska adresa i e-mail trebaju biti jasno uključeni u pismo.
+    - Uputite izravnu, pristojnu molbu europarlamentarcu da podrži politike i ulaganja kao što je javna nabava otvorenog koda koja će ojačati digitalni suverenitet.
+    - Istaknite da se nadate sudjelovati na FOSDEM-u u Bruxellesu početkom veljače i voljeli biste se osobno upoznati.
+    - Definirajte sve kratice pri prvom korištenju. Završite pristojnom frazom i pozivom na daljnju raspravu ili odgovor.
+    - Održavajte pristojan, sažet i osoban ton.

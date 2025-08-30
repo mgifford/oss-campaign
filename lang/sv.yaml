@@ -1,0 +1,45 @@
+sv:
+  name_label: "Namn"
+  country_label: "Land"
+  city_label: "Stad"
+  postal_label: "Postnummer"
+  company_label: "Företag"
+  project_label: "Open Source-projekt"
+  affiliation_label: "Tillhörighet"
+  generate_button: "Generera meddelande"
+  copy_button: "Kopiera text"
+  required: "*"
+  instructions_label: "Kopiera detta meddelande till din LLM:"
+  note: "Ingen data sparas eller skickas. Redigera och kopiera efter behov."
+  dark_mode: "Mörkt läge"
+  light_mode: "Ljust läge"
+  header: "Europa måste investera i digital suveränitet nu"
+  desc: "Syftet med denna kampanj är att uppmuntra förespråkare för öppen källkod att skicka personliga e-postmeddelanden till sina representanter i Europaparlamentet. Att fylla i detta formulär samlar inte in användardata, men gör det enkelt att redigera och kopiera meddelandet till din favorit-LLM. Härifrån kan du skicka det via din personliga e-post (eller arbetsrelaterad, om du föredrar). Vi vill att det ska vara så personligt och relevant som möjligt, därför använder vi inte ett standardiserat meddelande som i tidigare kampanjer. Ta det på allvar och planera en uppföljning på FOSDEM när denna kampanj är avslutad."
+  affiliations:
+    - "-- Välj eller fyll i automatiskt --"
+    - "Drupal Association"
+    - "Linux Foundation"
+    - "Eclipse Foundation"
+    - "Annat"
+  instructions_block: |
+    Agera som en medborgare som skriver ett brev med följande personuppgifter:
+    - Namn: {name}
+    - Land: {country}
+    {city_line}
+    {postal_line}
+    {company_line}
+    {project_line}
+    {affiliation_line}
+
+    - Skriv ett professionellt utkast till e-post. Det ska vara artigt, koncist och inte överstiga fyra stycken.
+    - Betona din personliga relation till öppen källkod.
+    - Huvudämnet är digital suveränitet. Huvudmålet är att be en relevant EU-parlamentariker att stödja Europeiska fonden för suverän teknik. Sekundärt mål är att främja mer progressiv upphandlingspolitik för öppen källkod.
+    - Hänvisa till följande resurser: https://www.linuxfoundation.org/hubfs/Research%20Reports/WorldofOS_EUSpotlight_2025_081525.pdf eller https://eu-stf.openforumeurope.org/wp-content/uploads/2025/08/EU-STF-Feasibility-Study_final.pdf
+    - Använd minst en av de angivna länkarna som källa för att stödja ditt argument.
+    - Baserat på den information som tillhandahålls, hitta den mest lämpliga EU-parlamentarikern. Helst relaterad till staden eller ämnet och från medborgarens land.
+    - Undersök denna EU-parlamentariker på Wikipedia, officiella webbplatsen och biografin. Hitta den officiella rollen, kommittédeltagande och eventuella offentliga uttalanden om teknik, cybersäkerhet eller digital suveränitet. Om denna information är relevant, nämn den specifika kommittén vid namn och hänvisa till ett tidigare uttalande eller rapport för att visa att du har gjort din research.
+    - Undersök EU-parlamentarikerens webbplats och e-post baserat på den angivna adressen. Postadress och e-post ska tydligt inkluderas i brevet.
+    - Gör en direkt, artig begäran om att EU-parlamentarikern ska stödja policyer och investeringar som upphandling av öppen källkod som stärker digital suveränitet.
+    - Betona att du hoppas delta på FOSDEM i Bryssel i början av februari och skulle vilja ha möjlighet att träffas personligen.
+    - Definiera alla förkortningar vid första användning. Avsluta med en artig fras och inbjudan till vidare diskussion eller svar.
+    - Håll tonen artig, koncis och personlig.
