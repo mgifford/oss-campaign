@@ -14,7 +14,7 @@ et:
   dark_mode: "Tume režiim"
   light_mode: "Hele režiim"
   header: "Euroopa peab investeerima digitaalsesse suveräänsusesse nüüd"
-  desc: "Selle kampaania eesmärk on julgustada avatud lähtekoodi pooldajaid saatma isikupärastatud e-kirju oma Euroopa Parlamendi esindajatele. Selle vormi täitmine ei kogu kasutajaandmeid, kuid võimaldab teil hõlpsalt sõnumit redigeerida ja kopeerida oma lemmik LLM-i. Siit saate selle saata oma isikliku e-posti kaudu (või tööalase, kui soovite). Soovime, et see oleks võimalikult isikupärane ja asjakohane, seetõttu ei kasuta me standardiseeritud sõnumit nagu varasemates kampaaniates. Võtke seda tõsiselt ja planeerige järeltegevus FOSDEM-il pärast kampaania lõppu."
+  desc: "<p>Kas usud, et peaksid omama suuremat kontrolli selle üle, mis juhtub sinu andmetega? Aga valitsused, kelle teenuseid sa iga päev kasutad? See kampaania on sinu võimalus tegutseda koos ja tagada, et Euroopa Parlament kuuleks avatud lähtekoodi kogukonda selgelt ja kõlavalt.</p><h2>Siin on, kuidas tegutseda kolme sammuga:</h2><ol><li>Ava vorm. See on eeltäidetud, et saaksid alustada, kuid ei kogu isikuandmeid.</li><li>Muuda see isiklikuks. Kopeeri sõnum oma lemmik LLM-i või redaktorisse, kohanda see vastavalt oma kogemusele ja saada see oma isiklikust (või töö) e-postist. Autentsed sõnumid on olulisemad kui mallid.</li><li>Järeltegevus. Kampaania lõpeb FOSDEM-il, kus me ühendume ja tagame, et poliitikakujundajad näevad meie kogukonna jõudu.</li></ol><p>Teeme selle kampaania erinevaks varasematest: ei mingeid massilisi e-kirju, ei mingeid ühtseid tekste. See on mõeldud päris inimestele, kes räägivad otse oma esindajatega, miks avatud lähtekood on oluline.</p>"
   affiliations:
     - "-- Vali või täida automaatselt --"
     - "Drupal Association"

@@ -1,0 +1,45 @@
+sk:
+  name_label: "Meno"
+  country_label: "Krajina"
+  city_label: "Mesto"
+  postal_label: "PSČ"
+  company_label: "Spoločnosť"
+  project_label: "Projekt otvoreného softvéru"
+  affiliation_label: "Príslušnosť"
+  generate_button: "Generovať správu"
+  copy_button: "Kopírovať text"
+  required: "*"
+  instructions_label: "Skopírujte túto správu do svojho LLM:"
+  note: "Žiadne údaje sa neukladajú ani neposielajú. Upravte a kopírujte podľa potreby."
+  dark_mode: "Tmavý režim"
+  light_mode: "Svetlý režim"
+  header: "Európa musí investovať do digitálnej suverenity teraz"
+  desc: "<p>Myslíte si, že by ste mali mať väčšiu kontrolu nad tým, čo sa deje s vašimi údajmi? A čo vlády, ktorých služby využívate každý deň? Táto kampaň je vašou príležitosťou konať spoločne a zabezpečiť, aby Európsky parlament jasne počul hlas komunity open source.</p>\n            <h2>Tu je postup v troch krokoch:</h2>\n            <ol>\n                <li>Otvorte formulár. Je predvyplnený, aby ste mohli začať, ale nezhromažďuje žiadne osobné údaje.</li>\n                <li>Urobte to osobné. Skopírujte správu do svojho obľúbeného LLM alebo editora, upravte ju podľa vlastných skúseností a odošlite zo svojho osobného (alebo pracovného) e-mailu. Autentické správy sú dôležitejšie ako šablóny.</li>\n                <li>Sledujte ďalšie kroky. Kampaň sa skončí na FOSDEM, kde sa stretneme a zabezpečíme, aby tvorcovia politík videli silu našej komunity.</li>\n            </ol>\n        <p>Túto kampaň robíme inak ako predtým: žiadne hromadné e-maily, žiadny univerzálny text. Ide o skutočných ľudí, ktorí sa priamo obracajú na svojich zástupcov a vysvetľujú, prečo je open source dôležitý.</p>"
+  affiliations:
+    - "-- Vyberte alebo automaticky vyplňte --"
+    - "Drupal Association"
+    - "Linux Foundation"
+    - "Eclipse Foundation"
+    - "Iné"
+  instructions_block: |
+    Konajte ako občan, ktorý píše list s nasledujúcimi osobnými údajmi:
+    - Meno: {name}
+    - Krajina: {country}
+    {city_line}
+    {postal_line}
+    {company_line}
+    {project_line}
+    {affiliation_line}
+
+    - Napíšte profesionálny návrh e-mailu. Mal by byť zdvorilý, stručný a nemal by presiahnuť štyri odseky.
+    - Zdôraznite svoj osobný vzťah k otvorenému softvéru.
+    - Hlavnou témou je digitálna suverenita. Hlavným cieľom je požiadať relevantného europoslanca, aby podporil Európsky fond pre suverénne technológie. Vedľajším cieľom je podpora progresívnejšej politiky verejného obstarávania pre otvorený softvér.
+    - Odkazujte na nasledujúce zdroje: https://www.linuxfoundation.org/hubfs/Research%20Reports/WorldofOS_EUSpotlight_2025_081525.pdf alebo https://eu-stf.openforumeurope.org/wp-content/uploads/2025/08/EU-STF-Feasibility-Study_final.pdf
+    - Použite aspoň jeden z poskytnutých odkazov ako zdroj na podporu svojho argumentu.
+    - Na základe poskytnutých informácií nájdite najvhodnejšieho europoslanca. Ideálne by mal súvisieť s mestom alebo témou a pochádzať z krajiny občana.
+    - Preskúmajte tohto europoslanca na Wikipédii, oficiálnej stránke a v biografii. Nájdite jeho oficiálnu rolu, členstvo v komisiách a verejné vyhlásenia o technológiách, kybernetickej bezpečnosti alebo digitálnej suverenite. Ak sú tieto informácie relevantné, uveďte konkrétnu komisiu menom a odkážte na predchádzajúce vyhlásenie alebo správu, aby ste ukázali, že ste vykonali výskum.
+    - Preskúmajte webovú stránku a e-mail europoslanca na základe poskytnutej adresy. Poštová adresa a e-mail by mali byť jasne uvedené v liste.
+    - Urobte priamu, zdvorilú žiadosť, aby europoslanec podporil politiky a investície, ako je verejné obstarávanie otvoreného softvéru, ktoré posilnia digitálnu suverenitu.
+    - Zdôraznite, že dúfate, že sa zúčastníte FOSDEM v Bruseli začiatkom februára a radi by ste sa osobne stretli.
+    - Pri prvom použití vysvetlite všetky skratky. Ukončite zdvorilou frázou a pozvaním na ďalšiu diskusiu alebo odpoveď.
+    - Zachovajte zdvorilý, stručný a osobný tón.

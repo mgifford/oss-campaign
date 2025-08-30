@@ -1,0 +1,45 @@
+sl:
+  name_label: "Ime"
+  country_label: "Država"
+  city_label: "Mesto"
+  postal_label: "Poštna številka"
+  company_label: "Podjetje"
+  project_label: "Projekt odprte kode"
+  affiliation_label: "Pripadnost"
+  generate_button: "Generiraj sporočilo"
+  copy_button: "Kopiraj besedilo"
+  required: "*"
+  instructions_label: "Kopirajte to sporočilo v svoj LLM:"
+  note: "Podatki se ne shranjujejo ali pošiljajo. Uredite in kopirajte po potrebi."
+  dark_mode: "Temni način"
+  light_mode: "Svetli način"
+  header: "Evropa mora zdaj vlagati v digitalno suverenost"
+  desc: "<p>Menite, da bi morali imeti več nadzora nad tem, kaj se dogaja z vašimi podatki? Kaj pa vlade, katerih storitve uporabljate vsak dan? Ta kampanja je vaša priložnost, da ukrepate skupaj in zagotovite, da Evropski parlament jasno sliši glas skupnosti odprte kode.</p>\n            <h2>Tako lahko ukrepate v treh korakih:</h2>\n            <ol>\n                <li>Odprite obrazec. Je predizpolnjen, da vam olajša začetek, vendar ne zbira osebnih podatkov.</li>\n                <li>Naredite ga osebnega. Kopirajte sporočilo v svoj najljubši LLM ali urejevalnik, prilagodite ga svojim izkušnjam in ga pošljite iz svojega osebnega (ali službenega) e-poštnega naslova. Avtentična sporočila so pomembnejša od predlog.</li>\n                <li>Spremljajte nadaljnje korake. Kampanja se bo zaključila na FOSDEM, kjer se bomo srečali in poskrbeli, da bodo oblikovalci politik videli moč naše skupnosti.</li>\n            </ol>\n        <p>To kampanjo vodimo drugače kot prejšnje: brez množičnih e-poštnih sporočil, brez enotnega besedila. Gre za resnične ljudi, ki neposredno nagovarjajo svoje predstavnike in pojasnjujejo, zakaj je odprta koda pomembna.</p>"
+  affiliations:
+    - "-- Izberite ali samodejno izpolnite --"
+    - "Drupal Association"
+    - "Linux Foundation"
+    - "Eclipse Foundation"
+    - "Drugo"
+  instructions_block: |
+    Delujte kot državljan, ki piše pismo z naslednjimi osebnimi podatki:
+    - Ime: {name}
+    - Država: {country}
+    {city_line}
+    {postal_line}
+    {company_line}
+    {project_line}
+    {affiliation_line}
+
+    - Napišite profesionalni osnutek e-pošte. Mora biti vljuden, jedrnat in ne sme presegati štirih odstavkov.
+    - Poudarite svoj osebni odnos do odprte kode.
+    - Glavna tema je digitalna suverenost. Glavni cilj je prositi ustreznega poslanca Evropskega parlamenta, da podpre Evropski sklad za suvereno tehnologijo. Sekundarni cilj je spodbujanje bolj progresivne politike javnih naročil za odprto kodo.
+    - Sklicujte se na naslednje vire: https://www.linuxfoundation.org/hubfs/Research%20Reports/WorldofOS_EUSpotlight_2025_081525.pdf ali https://eu-stf.openforumeurope.org/wp-content/uploads/2025/08/EU-STF-Feasibility-Study_final.pdf
+    - Uporabite vsaj eno od navedenih povezav kot vir za podporo svojemu argumentu.
+    - Na podlagi posredovanih informacij poiščite najbolj primernega poslanca Evropskega parlamenta. Idealno povezan z mestom ali temo in iz države državljana.
+    - Raziščite tega poslanca Evropskega parlamenta na Wikipediji, uradni spletni strani in v biografiji. Poiščite uradno vlogo, članstvo v odborih in javne izjave o tehnologiji, kibernetski varnosti ali digitalni suverenosti. Če so te informacije pomembne, navedite določen odbor po imenu in se sklicujte na prejšnjo izjavo ali poročilo, da pokažete, da ste opravili raziskavo.
+    - Raziščite spletno stran in e-pošto poslanca Evropskega parlamenta na podlagi posredovanega naslova. Poštni naslov in e-pošta morata biti jasno vključena v pismo.
+    - Podajte neposredno, vljudno prošnjo, da poslanec Evropskega parlamenta podpre politike in naložbe, kot je javno naročanje odprte kode, ki bo okrepilo digitalno suverenost.
+    - Poudarite, da upate, da boste prisotni na FOSDEM v Bruslju v začetku februarja in bi se radi osebno srečali.
+    - Ob prvi uporabi razložite vse okrajšave. Zaključite z vljudno frazo in povabilom k nadaljnji razpravi ali odgovoru.
+    - Ohranjajte vljuden, jedrnat in oseben ton.

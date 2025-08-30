@@ -1,0 +1,45 @@
+mt:
+  name_label: "Isem"
+  country_label: "Pajjiż"
+  city_label: "Belt"
+  postal_label: "Kodiċi Postali"
+  company_label: "Kumpanija"
+  project_label: "Proġett Open Source"
+  affiliation_label: "Affiljazzjoni"
+  generate_button: "Ġenera messaġġ"
+  copy_button: "Ikkopja t-test"
+  required: "*"
+  instructions_label: "Ikkopja dan il-messaġġ fil-LLM tiegħek:"
+  note: "Ma jinżammu jew jintbagħtu l-ebda data. Editja u kkopja kif meħtieġ."
+  dark_mode: "Modalità skura"
+  light_mode: "Modalità ċara"
+  header: "L-Ewropa trid tinvesti fis-sovranità diġitali issa"
+  desc: "<p>Taqbel li għandek ikollok aktar kontroll fuq dak li jiġri bid-data tiegħek? U dwar il-gvernijiet li s-servizzi tagħhom tuża kuljum? Din il-kampanja hija ċ-ċans tiegħek biex taġixxu flimkien u tiżguraw li l-Parlament Ewropew jisma' b'mod ċar lill-komunità open source.</p>\n            <h2>Hawn kif taġixxi f'tliet passi:</h2>\n            <ol>\n                <li>Iftaħ il-formola. Hija mimlija minn qabel biex tibda, iżda ma tiġbor l-ebda data personali.</li>\n                <li>Agħmilha personali. Ikkopja l-messaġġ fil-LLM jew editur favorit tiegħek, aġġustah skont l-esperjenza tiegħek u ibagħtu mill-email personali (jew tax-xogħol). Messaġġi awtentiċi huma aktar importanti minn mudelli.</li>\n                <li>Segwi. Din il-kampanja tispiċċa fil-FOSDEM, fejn niltaqgħu u niżguraw li l-politiċi jaraw is-saħħa tal-komunità tagħna.</li>\n            </ol>\n        <p>Qed inżommu din il-kampanja differenti minn ta' qabel: l-ebda emails massivi, l-ebda test wieħed għal kulħadd. Din hija dwar nies veri li jitkellmu direttament mar-rappreżentanti tagħhom dwar għaliex l-open source hu importanti.</p>"
+  affiliations:
+    - "-- Agħżel jew imla awtomatikament --"
+    - "Drupal Association"
+    - "Linux Foundation"
+    - "Eclipse Foundation"
+    - "Oħrajn"
+  instructions_block: |
+    Agħmel bħala ċittadin li qed jikteb ittra b'dawn id-dettalji personali:
+    - Isem: {name}
+    - Pajjiż: {country}
+    {city_line}
+    {postal_line}
+    {company_line}
+    {project_line}
+    {affiliation_line}
+
+    - Iktib abbozz professjonali ta' email. Għandu jkun edukat, konċiż u ma jaqbiżx erba' paragrafi.
+    - Enfasizza r-relazzjoni personali tiegħek mal-open source.
+    - Is-suġġett ewlieni huwa s-sovranità diġitali. L-għan ewlieni huwa li titlob lil MEP rilevanti biex jappoġġja l-Fond Ewropew għat-Teknoloġija Sovrana. L-għan sekondarju huwa li tippromwovi politika ta' akkwist aktar progressiva għall-open source.
+    - Irreferi għal dawn is-sorsi: https://www.linuxfoundation.org/hubfs/Research%20Reports/WorldofOS_EUSpotlight_2025_081525.pdf jew https://eu-stf.openforumeurope.org/wp-content/uploads/2025/08/EU-STF-Feasibility-Study_final.pdf
+    - Uża mill-inqas waħda mill-links ipprovduti bħala sors biex tappoġġja l-argument tiegħek.
+    - Ibbażat fuq l-informazzjoni pprovduta, sib l-aktar MEP xieraq. Idealment relatat mal-belt jew is-suġġett u mill-pajjiż taċ-ċittadin.
+    - Irriċerka dan il-MEP fuq Wikipedia, is-sit uffiċjali u l-bijografija tiegħu. Sib ir-rwol uffiċjali, is-sħubija fil-kumitat u kwalunkwe dikjarazzjoni pubblika dwar it-teknoloġija, is-sigurtà ċibernetika jew is-sovranità diġitali. Jekk din l-informazzjoni hija rilevanti, semmi l-kumitat speċifiku b'ismu u irreferi għal dikjarazzjoni jew rapport preċedenti biex turi li għamilt ir-riċerka.
+    - Irriċerka s-sit u l-email tal-MEP ibbażat fuq l-indirizz ipprovdut. L-indirizz postali u l-email għandhom ikunu inklużi b'mod ċar fl-ittra.
+    - Agħmel talba diretta, edukata biex il-MEP jappoġġja politiki u investimenti bħall-akkwist tal-open source li jsaħħaħ is-sovranità diġitali.
+    - Enfasizza li t-tama tiegħek hija li tattendi l-FOSDEM fi Brussell fil-bidu ta' Frar u tixtieq l-opportunità li tiltaqa' personalment.
+    - Iddefinixxi l-abbrevjazzjonijiet kollha fl-ewwel użu. Temm b'frażi edukata u stedina għal diskussjoni jew tweġiba ulterjuri.
+    - Żomm it-ton edukat, konċiż u personali.

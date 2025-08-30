@@ -1,0 +1,45 @@
+lt:
+  name_label: "Vardas"
+  country_label: "Šalis"
+  city_label: "Miestas"
+  postal_label: "Pašto kodas"
+  company_label: "Įmonė"
+  project_label: "Atviro kodo projektas"
+  affiliation_label: "Priklausomybė"
+  generate_button: "Generuoti žinutę"
+  copy_button: "Kopijuoti tekstą"
+  required: "*"
+  instructions_label: "Kopijuokite šią žinutę į savo LLM:"
+  note: "Duomenys nėra saugomi ar siunčiami. Redaguokite ir kopijuokite pagal poreikį."
+  dark_mode: "Tamsus režimas"
+  light_mode: "Šviesus režimas"
+  header: "Europa turi investuoti į skaitmeninį suverenitetą dabar"
+  desc: "<p>Ar manote, kad turėtumėte daugiau kontroliuoti, kas vyksta su jūsų duomenimis? O kaip dėl vyriausybių, kurių paslaugomis naudojatės kasdien? Ši kampanija – jūsų galimybė veikti kartu ir užtikrinti, kad Europos Parlamentas aiškiai išgirstų atviro kodo bendruomenės balsą.</p>\n            <h2>Kaip veikti trimis žingsniais:</h2>\n            <ol>\n                <li>Atidarykite formą. Ji iš anksto užpildyta, kad būtų lengviau pradėti, tačiau nerenka jokių asmens duomenų.</li>\n                <li>Padarykite ją asmenišką. Nukopijuokite žinutę į mėgstamą LLM ar redaktorių, pakoreguokite ją pagal savo patirtį ir išsiųskite iš asmeninio (arba darbo) el. pašto. Autentiškos žinutės yra svarbesnės nei šablonai.</li>\n                <li>Sekite toliau. Kampanija baigsis FOSDEM renginyje, kur susitiksime ir užtikrinsime, kad politikai pamatytų mūsų bendruomenės stiprybę.</li>\n            </ol>\n        <p>Ši kampanija skiriasi nuo ankstesnių: jokio masinio el. pašto, jokio vienodo teksto visiems. Tai apie tikrus žmones, kurie tiesiogiai kreipiasi į savo atstovus ir paaiškina, kodėl atviras kodas yra svarbus.</p>"
+  affiliations:
+    - "-- Pasirinkite arba automatiškai užpildykite --"
+    - "Drupal Association"
+    - "Linux Foundation"
+    - "Eclipse Foundation"
+    - "Kita"
+  instructions_block: |
+    Veikite kaip pilietis, rašantis laišką su šiais asmeniniais duomenimis:
+    - Vardas: {name}
+    - Šalis: {country}
+    {city_line}
+    {postal_line}
+    {company_line}
+    {project_line}
+    {affiliation_line}
+
+    - Parašykite profesionalų el. laiško juodraštį. Jis turi būti mandagus, glaustas ir neviršyti keturių pastraipų.
+    - Pabrėžkite savo asmeninį ryšį su atviru kodu.
+    - Pagrindinė tema – skaitmeninis suverenitetas. Pagrindinis tikslas – paprašyti atitinkamo europarlamentaro palaikyti Europos suverenių technologijų fondą. Antrinis tikslas – skatinti pažangesnę atviro kodo viešųjų pirkimų politiką.
+    - Nurodykite šiuos šaltinius: https://www.linuxfoundation.org/hubfs/Research%20Reports/WorldofOS_EUSpotlight_2025_081525.pdf arba https://eu-stf.openforumeurope.org/wp-content/uploads/2025/08/EU-STF-Feasibility-Study_final.pdf
+    - Naudokite bent vieną iš pateiktų nuorodų kaip šaltinį savo argumentui pagrįsti.
+    - Remdamiesi pateikta informacija, raskite tinkamiausią europarlamentarą. Idealiu atveju susijusį su miestu ar tema ir iš piliečio šalies.
+    - Ištirkite šį europarlamentarą Vikipedijoje, oficialioje svetainėje ir biografijoje. Suraskite oficialų vaidmenį, komiteto narystę ir viešus pareiškimus apie technologijas, kibernetinį saugumą ar skaitmeninį suverenitetą. Jei ši informacija aktuali, nurodykite konkretų komitetą vardu ir remkitės ankstesniu pareiškimu ar ataskaita, kad parodytumėte, jog atlikote tyrimą.
+    - Ištirkite europarlamentaro svetainę ir el. paštą pagal pateiktą adresą. Pašto adresas ir el. paštas turi būti aiškiai nurodyti laiške.
+    - Pateikite tiesioginį, mandagų prašymą, kad europarlamentaras palaikytų politiką ir investicijas, tokias kaip atviro kodo viešieji pirkimai, kurie sustiprins skaitmeninį suverenitetą.
+    - Pabrėžkite, kad tikitės dalyvauti FOSDEM Briuselyje vasario pradžioje ir norėtumėte galimybės susitikti asmeniškai.
+    - Apibrėžkite visus santrumpas pirmą kartą naudojant. Baikite mandagia fraze ir kvietimu tolesniam pokalbiui ar atsakymui.
+    - Išlaikykite mandagų, glaustą ir asmenišką toną.
