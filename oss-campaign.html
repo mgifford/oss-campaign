@@ -308,13 +308,23 @@
 				o.value = opt;
 				affSelect.appendChild(o);
 			});
+			// Base names to match against translations
+			const baseNames = ['drupal', 'linux', 'eclipse'];
+
 			// Set affiliation from URL if present
 			const urlAff = getQueryParam('affiliation');
 			if (urlAff) {
-				for (let i = 0; i < affSelect.options.length; i++) {
-					if (affSelect.options[i].value === urlAff) {
-						affSelect.selectedIndex = i;
-						break;
+				const normalizedAff = urlAff.toLowerCase();
+				const matchingBase = baseNames.find(base => normalizedAff.includes(base));
+				
+				if (matchingBase) {
+					// Find the matching translated option
+					for (let i = 0; i < affSelect.options.length; i++) {
+						const optionValue = affSelect.options[i].value.toLowerCase();
+						if (optionValue.includes(matchingBase)) {
+							affSelect.selectedIndex = i;
+							break;
+						}
 					}
 				}
 			}
