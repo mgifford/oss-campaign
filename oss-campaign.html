@@ -221,6 +221,10 @@
 					document.execCommand('copy');
 					this.textContent = 'Copied!';
 					setTimeout(() => { this.textContent = 'Copy Text'; }, 1500);
+					// Show dialog after copying
+					if (translations && translations.dialog_message) {
+						showDialog(translations.dialog_message);
+					}
 				} catch (err) {
 					this.textContent = 'Failed to copy';
 					setTimeout(() => { this.textContent = 'Copy Text'; }, 1500);
@@ -293,11 +297,27 @@
 			// Update affiliation options
 			const affSelect = document.getElementById('affiliation');
 			affSelect.innerHTML = '';
+			// Add a placeholder option
+			const placeholder = document.createElement('option');
+			placeholder.textContent = '-- Select or auto-filled --';
+			placeholder.value = '';
+			affSelect.appendChild(placeholder);
 			t.affiliations.forEach(function(opt) {
 				const o = document.createElement('option');
 				o.textContent = opt;
+				o.value = opt;
 				affSelect.appendChild(o);
 			});
+			// Set affiliation from URL if present
+			const urlAff = getQueryParam('affiliation');
+			if (urlAff) {
+				for (let i = 0; i < affSelect.options.length; i++) {
+					if (affSelect.options[i].value === urlAff) {
+						affSelect.selectedIndex = i;
+						break;
+					}
+				}
+			}
 		}
 
 		let translations = null;
@@ -317,7 +337,12 @@
 			const postal = document.getElementById('postal').value.trim();
 			const company = document.getElementById('company').value.trim();
 			const project = document.getElementById('project').value.trim();
-			const affiliation = document.getElementById('affiliation').value;
+			const affSelect = document.getElementById('affiliation');
+			let affiliation = affSelect.value;
+			// If the first option is selected or value is empty, treat as not selected
+			if (affSelect.selectedIndex === 0 || !affiliation) {
+				affiliation = '';
+			}
 
 			if (!translations) {
 				document.getElementById('output').value = 'Translation file not loaded.';
@@ -327,21 +352,54 @@
 			let message = translations.instructions_block
 				.replace('{name}', name)
 				.replace('{country}', country)
-				.replace('{city_line}', city ? `- ${translations.city_label}: ${city}` : '')
-				.replace('{postal_line}', postal ? `- ${translations.postal_label}: ${postal}` : '')
-				.replace('{company_line}', company ? `- ${translations.company_label}: ${company}` : '')
-				.replace('{project_line}', project ? `- ${translations.project_label}: ${project}` : '')
-				.replace('{affiliation_line}', affiliation ? `- ${translations.affiliation_label}: ${affiliation}` : '');
+				.replace('{city_line}', city ? `- ${translations.city_label}: ${city}\n` : '')
+				.replace('{postal_line}', postal ? `- ${translations.postal_label}: ${postal}\n` : '')
+				.replace('{company_line}', company ? `- ${translations.company_label}: ${company}\n` : '')
+				.replace('{project_line}', project ? `- ${translations.project_label}: ${project}\n` : '')
+				.replace('{affiliation_line}', affiliation ? `- ${translations.affiliation_label}: ${affiliation}\n` : '');
 
 			document.getElementById('output').value = message;
 		});
 
-		// Dark/Light mode toggle with sun/moon icon
+		// Dialog box implementation
+		function showDialog(html) {
+			let dialog = document.createElement('div');
+			dialog.id = 'popupDialog';
+			dialog.style.position = 'fixed';
+			dialog.style.left = '0';
+			dialog.style.top = '0';
+			dialog.style.width = '100vw';
+			dialog.style.height = '100vh';
+			dialog.style.background = 'rgba(0,0,0,0.4)';
+			dialog.style.display = 'flex';
+			dialog.style.alignItems = 'center';
+			dialog.style.justifyContent = 'center';
+			dialog.style.zIndex = '9999';
+			dialog.innerHTML = `<div style="background:#fff;padding:32px;border-radius:8px;max-width:400px;box-shadow:0 2px 8px rgba(0,0,0,0.15);color:#222;position:relative;">
+				${html}
+				<button id="closeDialog" style="margin-top:16px;float:right;">OK</button>
+			</div>`;
+			document.body.appendChild(dialog);
+			document.getElementById('closeDialog').onclick = function() {
+				dialog.remove();
+			};
+		}
+
+		// Dark/Light mode toggle with sun/moon icon and persistent preference
 		const modeToggle = document.getElementById('modeToggle');
 		const modeIcon = document.getElementById('modeIcon');
+		// On load, respect saved mode
+		const savedMode = localStorage.getItem('colorMode');
+		if (savedMode) {
+			document.body.classList.toggle('dark-mode', savedMode === 'dark');
+			if (modeIcon) modeIcon.textContent = savedMode === 'dark' ? '☀️' : '🌙';
+			if (modeToggle) modeToggle.title = savedMode === 'dark' ? 'Switch to light mode' : 'Switch to dark mode';
+		}
 		modeToggle.addEventListener('click', function() {
 			document.body.classList.toggle('dark-mode');
-			if(document.body.classList.contains('dark-mode')) {
+			const isDark = document.body.classList.contains('dark-mode');
+			localStorage.setItem('colorMode', isDark ? 'dark' : 'light');
+			if(isDark) {
 				modeIcon.textContent = '☀️';
 				modeToggle.title = 'Switch to light mode';
 			} else {
